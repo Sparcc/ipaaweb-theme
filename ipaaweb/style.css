@@ -23,7 +23,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 /*--------------------------------------------------------------
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
-#try
+# Experiments
 # Normalize
 # Typography
 # Elements
@@ -44,6 +44,11 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	## Captions
 	## Galleries
 --------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Experiments
+--------------------------------------------------------------*/
+
 
 /*--------------------------------------------------------------
 # Normalize
@@ -556,6 +561,10 @@ a:active {
 	display: block;
 	float: left;
 	width: 100%;
+	
+	background-color:#0099ff;
+	border-style:solid;
+	border-top-left-radius: 4em;
 }
 
 .main-navigation ul {
@@ -568,6 +577,7 @@ a:active {
 .main-navigation li {
 	float: left;
 	position: relative;
+	padding-left: 2em;
 }
 
 .main-navigation a {
@@ -790,16 +800,15 @@ a:active {
 .entry-content,
 .entry-summary {
 	margin: 1.5em 0 0;
+	
+	margin-right: 10%;
+	margin-left: 10%;
+	background-color:##0099ff;
 }
 
 .page-links {
 	clear: both;
 	margin: 0 0 1.5em;
-}
-
-.page-content {
-	margin-right: 7.6923%;
-	margin-left: 7.6923%;
 }
 
 /*--------------------------------------------------------------
