@@ -1,7 +1,7 @@
 /*
 Theme Name: ipaaweb
 Theme URI: http://underscores.me/
-Author: Underscores.me
+Author: Underscores.me, ipaaweb project team 2016
 Author URI: http://underscores.me/
 Description: Description
 Version: 1.0.0
@@ -19,12 +19,7 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
 Normalizing styles have been helped along thanks to the fine work of
 Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 */
-# An edit
-#another edit
-#more edits
-#even more edits
-#edit again
-#another edit again
+
 /*--------------------------------------------------------------
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
@@ -802,6 +797,11 @@ a:active {
 	margin: 0 0 1.5em;
 }
 
+.page-content {
+	margin-right: 7.6923%;
+	margin-left: 7.6923%;
+}
+
 /*--------------------------------------------------------------
 ## Asides
 --------------------------------------------------------------*/
@@ -925,5 +925,3 @@ object {
 .gallery-caption {
 	display: block;
 }
-# lmao
-#prototype branch edit
