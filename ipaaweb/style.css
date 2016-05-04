@@ -771,7 +771,8 @@ a:active {
 .widget select {
 	max-width: 100%;
 }
-
+.single-sell_media_item secondary 
+{display:none;}
 /*--------------------------------------------------------------
 # Content
 --------------------------------------------------------------*/
