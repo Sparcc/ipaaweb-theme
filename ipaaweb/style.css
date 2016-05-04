@@ -776,6 +776,15 @@ a:active {
 }
 .single-sell_media_item secondary 
 {display:none;}
+
+aside{
+	background-color: white;
+	border-style:solid;
+	border-radius: 0.2em;
+	width: 20em;
+	padding: 1em;
+	box-shadow: 10px 10px 5px #888888;
+}
 /*--------------------------------------------------------------
 # Content
 --------------------------------------------------------------*/

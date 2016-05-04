@@ -16,10 +16,12 @@ get_header(); ?>
 GREETINGS FROM front-page.php
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-		<div id="events-section">
-		<?php dynamic_sidebar( 'home_right_1' ); ?>
-		events section goes here
-		</div>
+
+		<?php 
+		//if widget areas of sidebars exist, show them 
+		if(dynamic_sidebar('widget_area_1')) :else:endif;
+		
+		?>
 
 			<?php
 			while ( have_posts() ) : the_post();
