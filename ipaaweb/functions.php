@@ -107,8 +107,20 @@ function ipaaweb_widgets_init() {
 		'before_title'  => '<h2 class="widget-title">',
 		'after_title'   => '</h2>',
 	) );
+	
+	register_sidebar( array(
+		'name' => esc_html__('Widget Area 1', 'ipaaweb'),
+		'id' => 'widget_area_1',
+		'description'   => esc_html__( 'Add widgets here.', 'ipaaweb' ),
+		'before_widget' => '<aside>',
+		'after_widget' => '</aside>',
+		'before_title' => '<h2 class="widget-title">',
+		'after_title' => '</h2>',
+	));
 }
 add_action( 'widgets_init', 'ipaaweb_widgets_init' );
+//lets us use shortcode in text widget to use plugins that are called with shortcode
+add_filter('widget_text','do_shortcode');
 
 /**
  * Enqueue scripts and styles.
