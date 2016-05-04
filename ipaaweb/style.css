@@ -57,6 +57,9 @@ html {
 	font-family: sans-serif;
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust:     100%;
+
+	margin-left: 15%;
+	margin-right: 15%;
 }
 
 body {
@@ -802,8 +805,6 @@ a:active {
 .entry-summary {
 	margin: 1.5em 0 0;
 	
-	margin-right: 10%;
-	margin-left: 10%;
 	background-color:##0099ff;
 }
 
@@ -811,6 +812,13 @@ a:active {
 	clear: both;
 	margin: 0 0 1.5em;
 }
+
+#primary.content-area {
+	margin-left: 2em;
+	margin-right: 2em;
+	/*width: 80%;
+	position:relative; 
+	float:left;*/
 
 /*--------------------------------------------------------------
 ## Asides
