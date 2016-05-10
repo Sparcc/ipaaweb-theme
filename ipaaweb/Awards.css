@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+
+.Awards {
+	height: 100%;
+	position: absolute;
+	overflow: hidden;
+	width: 80%;
+	left: 10%;
+	right: 10%;
+}
+.awardsidebar {
+	position: relative;
+	width: 100%;
+	top: 0%;
+}
+.Contactpostion {
+	position: fixed;
+	top: 17%;
+}
+.Councilpostion {
+	position: fixed;
+	top: 25%;
+}
+.Awardspostion {
+	position: fixed;
+	top: 33%;
+}
+
+.Photogallerypostion {
+	position: fixed;
+	top: 41%;
+}

@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+
+.contactusbody {
+	height: 100%;
+	position: absolute;
+	overflow: auto;
+	width: 80%;
+	left: 10%;
+	right: 10%;
+}
