@@ -19,9 +19,23 @@ GREETINGS FROM front-page.php
 
 		<?php 
 		//if widget areas of sidebars exist, show them 
-		if(dynamic_sidebar('widget_area_1')) :else:endif;
+		
+		//this widget area should be reserved for an event calendar widget
+		//if(dynamic_sidebar('widget_area_1')) :else:endif;
 		
 		?>
+		
+		<div id="front-page-container">
+			<h2> Appy for membership</h2>
+			<FORM class="front-page form" METHOD="LINK" ACTION="http://localhost/wordpress/stub">
+			<INPUT class="front-page button" TYPE="submit" VALUE="individual Membership">
+			</FORM>
+			</br>
+			
+			<FORM class="front-page form" METHOD="LINK" ACTION="http://localhost/wordpress/stub">
+			<INPUT class="front-page button" TYPE="submit" VALUE="Corporate Membership">
+			</FORM>
+		</div> 
 
 			<?php
 			while ( have_posts() ) : the_post();

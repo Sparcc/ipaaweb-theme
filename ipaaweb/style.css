@@ -527,6 +527,17 @@ textarea {
 	width: 100%;
 }
 
+/*front page stuff*/
+
+#front-page-container{
+	background-color: white;
+	border-style:solid;
+	border-radius: 0.2em;
+	width: 20em;
+	padding: 1em;
+	box-shadow: 10px 10px 5px #888888;
+}
+
 /*--------------------------------------------------------------
 # Navigation
 --------------------------------------------------------------*/
