@@ -112,10 +112,39 @@ function ipaaweb_widgets_init() {
 		'name' => esc_html__('Widget Area 1', 'ipaaweb'),
 		'id' => 'widget_area_1',
 		'description'   => esc_html__( 'Add widgets here.', 'ipaaweb' ),
-		'before_widget' => '<aside>',
-		'after_widget' => '</aside>',
-		'before_title' => '<h2 class="widget-title">',
-		'after_title' => '</h2>',
+		'before_widget' => '<section id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</section>',
+		'before_title'  => '<h2 class="widget-title">',
+		'after_title'   => '</h2>',
+	) );
+		register_sidebar( array(
+		'name' => esc_html__('Widget Area 2', 'ipaaweb'),
+		'id' => 'widget_area_2',
+		'description'   => esc_html__( 'Add widgets here.', 'ipaaweb' ),
+		'before_widget' => '<section id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</section>',
+		'before_title'  => '<h2 class="widget-title">',
+		'after_title'   => '</h2>',
+	) );
+		
+		register_sidebar( array(
+		'name' => esc_html__('Widget Area 3', 'ipaaweb'),
+		'id' => 'widget_area_3',
+		'description'   => esc_html__( 'Add widgets here.', 'ipaaweb' ),
+		'before_widget' => '<section id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</section>',
+		'before_title'  => '<h2 class="widget-title">',
+		'after_title'   => '</h2>',
+	) );
+		
+		register_sidebar( array(
+		'name' => esc_html__('Widget Area 4', 'ipaaweb'),
+		'id' => 'widget_area_4',
+		'description'   => esc_html__( 'Add widgets here.', 'ipaaweb' ),
+		'before_widget' => '<section id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</section>',
+		'before_title'  => '<h2 class="widget-title">',
+		'after_title'   => '</h2>',
 	));
 }
 add_action( 'widgets_init', 'ipaaweb_widgets_init' );

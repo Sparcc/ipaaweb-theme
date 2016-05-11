@@ -57,13 +57,19 @@ html {
 	font-family: sans-serif;
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust:     100%;
-
+	
 	margin-left: 15%;
 	margin-right: 15%;
+	
+	background: red; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(white, #99ccff); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(white, #99ccff); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(white, #99ccff); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(white, #99ccff); /* Standard syntax */
 }
 
 body {
-	margin: 0;
+	margin: auto;
 }
 
 article,
@@ -79,6 +85,10 @@ nav,
 section,
 summary {
 	display: block;
+}
+
+#page{
+	background-color: #99ccff;
 }
 
 audio,
@@ -530,12 +540,16 @@ textarea {
 /*front page stuff*/
 
 #front-page-container{
-	background-color: white;
+	float: left;
+	background-color: #0066ff;
 	border-style:solid;
 	border-radius: 0.2em;
-	width: 20em;
+	border-width: 0.15em;
+	width: 15em;
 	padding: 1em;
-	box-shadow: 10px 10px 5px #888888;
+	box-shadow: 5px 5px 5px #888888;
+	display: block;
+	margin: 1em
 }
 
 /*--------------------------------------------------------------
@@ -788,14 +802,25 @@ a:active {
 .single-sell_media_item secondary 
 {display:none;}
 
-aside{
+.widget-area{
 	background-color: white;
 	border-style:solid;
 	border-radius: 0.2em;
 	width: 20em;
 	padding: 1em;
 	box-shadow: 10px 10px 5px #888888;
+	float: left;
+	margin: 1em;
 }
+#secondary1{
+	float: right;
+}
+#secondary4{
+	float: left;
+	width: 50em;
+}
+
+
 /*--------------------------------------------------------------
 # Content
 --------------------------------------------------------------*/
@@ -836,6 +861,7 @@ aside{
 #primary.content-area {
 	margin-left: 2em;
 	margin-right: 2em;
+	
 	/*width: 80%;
 	position:relative; 
 	float:left;*/
