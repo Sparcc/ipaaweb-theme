@@ -1,13 +1,3 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>无标题文档</title>
-<link href="council.css" rel="stylesheet" type="text/css" />
-</head>
-
-<body class="councilbody">
-
 <div id="councilimage"><img src="Council.png" width="163" height="49" /></div>
 <hr />
 <div id="CouncilContent">
@@ -148,5 +138,3 @@
   </table>
 </div>
 <p>&nbsp;</p>
-</body>
-</html>
