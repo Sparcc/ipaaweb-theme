@@ -1,12 +1,3 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>IPAA TAS- LINK</title>
-<link href="linkpage.css" rel="stylesheet" type="text/css" />
-</head>
-
-<body class="linkbody">
 <div>
   <div align="justify"><img src="links.png" width="127" height="55" align="top" />  </div>
 </div>
@@ -38,5 +29,4 @@
   <p><span class="OtherDisvisionsLeft">Visit the <a href="http://www.nsw.ipaa.org.au">IPAA NSW</a> Website</span></p>
 </div>
 <p>&nbsp;</p>
-</body>
-</html>
+
