@@ -990,6 +990,11 @@ object {
 /*THEY ARE COPYPASTED
 
 /*links page*/
+#OtherDivision{
+	width:285px;
+	height:55px;
+}
+
 a:link 
 {
 	color: #000;
@@ -1014,6 +1019,8 @@ a:hover {
 	left: 20%;
 	right: 10%;
 	position: relative;
+	width: 356px;
+	height: 100px;
 }
 .OtherDisvisionsLeft {
 	font-size: 30px;
