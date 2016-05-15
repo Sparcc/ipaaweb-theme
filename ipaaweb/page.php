@@ -19,12 +19,12 @@ get_header(); ?>
 			//echo "stuff";
 			//this includes the html/php code from the php files for the different pages
 			//page titles are defined in wp-admin then go to pages)
-			//if (is_page('Awards')){include("awards.php");}
+			if (is_page('Awards')){include("awardspage.php");}
 			if (is_page('About Us')){include("aboutus.php");}
-			//if (is_page('Contact Us')){include("contactus.php");}
-			//if (is_page('Council')){include("council.php");}
-			//if (is_page('Events')){include("events.php");}
-			//if (is_page('Links')){include("links.php");}
+			if (is_page('Contact Us')){include("contactus.php");}
+			if (is_page('Council')){include("council.php");}
+			if (is_page('Events')){include("eventspage.php");}
+			if (is_page('Links')){include("linkspage.php");}
 			//echo "stuff";
 			
 			//this stuff is relevant to posts so ignore this
