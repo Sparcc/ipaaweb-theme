@@ -24,7 +24,7 @@ get_header(); ?>
 			if (is_page('Contact Us')){include("contactus.php");}
 			if (is_page('Council')){include("council.php");}
 			if (is_page('Events')){include("eventspage.php");}
-			if (is_page('Links')){include("linkspage.php");}
+			if (is_page('Links')){include("linkpage.php");}
 			//echo "stuff";
 			
 			//this stuff is relevant to posts so ignore this
