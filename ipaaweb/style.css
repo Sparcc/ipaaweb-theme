@@ -1147,3 +1147,33 @@ a:hover {
 }
 
 /*events page*/
+.Events{
+	
+	height: 100%;
+	position: absolute;
+	overflow: hidden;
+	width: 80%;
+	left: 10%;
+	right: 10%;
+}
+	
+.EventsNameposition {
+	position: centre; 
+	width: 30%;
+}
+.Dateposition {
+	position: centre; 
+	width: 15%;
+}
+.Timeposition {
+	position: centre; 
+	width: 15%;
+}
+.Descriptionposition {
+	position: centre; 
+	width: 30%;
+}
+.Moreposition {
+	position: centre; 
+	width: 10%;
+}
