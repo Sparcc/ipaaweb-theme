@@ -1149,7 +1149,7 @@ a:hover {
 /*events page*/
 .Events{
 	
-	height: 100%;
+	height: 50%;
 	position: absolute;
 	overflow: hidden;
 	width: 80%;
@@ -1176,4 +1176,20 @@ a:hover {
 .Moreposition {
 	position: centre; 
 	width: 10%;
+}
+
+/*cancellation within events page*/
+
+.Cancellation {
+	height: 50%;
+	position: absolute;
+	overflow: hidden;
+	width: 80%;
+	left: 10%;
+	right: 10%;
+}
+
+.Cancellationposition {
+	position: centre;
+	valign: middle; 
 }
