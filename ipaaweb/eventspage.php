@@ -1,24 +1,23 @@
-<body class="eventbody">
 <div id="eventimage"><img src="event.png" width="218" height="55" /></div>
 <hr />
 <div class="TASimagepostion" id="Tas Division"><img src="TasDivision.png" width="277" height="57" /></div>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <div id="eventFrame">
-  <table width="100%" border="10" cellspacing="0" cellpadding="0">
+  <td width="100%" border="10" cellspacing="0" cellpadding="0">
     <tr>
-      <th width="30%" align="center" class="eventtitile" scope="col">Event Name</th>
-      <th width="15%" align="center" class="eventtitile" scope="col">Date</th>
-      <th width="15%" align="center" class="eventtitile" scope="col">Time</th>
-      <th width="30%" align="center" class="eventtitile" scope="col">Description</th>
-      <th width="10%" align="center" class="eventtitile" scope="col">More</th>
+      <h1 class="eventtitile" scope="col">Event Name</th>
+      <h1 class="eventtitile" scope="col">Date</th>
+      <h1 class="eventtitile" scope="col">Time</th>
+      <h1 class="eventtitile" scope="col">Description</th>
+      <h1 class="eventtitile" scope="col">More</th>
     </tr>
     <tr>
-      <td align="center" valign="top" class="CancellationTerms">2016 Tasmanian State Budget Briefing</td>
-      <td align="center" valign="top" class="CancellationTerms">Monday, 30 May 2016</td>
-      <td align="center" valign="top" class="CancellationTerms">12.00pm - 2.00pm</td>
-      <td align="center" valign="top" class="CancellationTerms">Join Tony Ferrall, Secretary of the Department of Treasury and Finance, as he provides an inside view of the State Budget. Tony will also be joined by Jenny Gale and Michael Pervan for a panel discussion on the impact of the State and Federal budgets on key agencies.</td>
-      <td align="center" valign="middle" class="CancellationTerms"><a href="http://events.ttc.tas.gov.au/pub/pubType/EV/pubID/zzzz570b27daf1979247/nc/zzzz572abb79a6110735/interface.html" target="_blank">Find More</a></td>
+      <td h2 class="CancellationTerms">2016 Tasmanian State Budget Briefing</td>
+      <td h2 class="CancellationTerms">Monday, 30 May 2016</td>
+      <td h2 class="CancellationTerms">12.00pm - 2.00pm</td>
+      <td h2 class="CancellationTerms">Join Tony Ferrall, Secretary of the Department of Treasury and Finance, as he provides an inside view of the State Budget. Tony will also be joined by Jenny Gale and Michael Pervan for a panel discussion on the impact of the State and Federal budgets on key agencies.</td>
+      <td h2 class="CancellationTerms"><a href="http://events.ttc.tas.gov.au/pub/pubType/EV/pubID/zzzz570b27daf1979247/nc/zzzz572abb79a6110735/interface.html" target="_blank">Find More</a></td>
     </tr>
     <tr>
       <td align="center" valign="top" class="CancellationTerms">A 'virtual' Address to the APS by Prime Minister Malcolm Turnbull</td>
