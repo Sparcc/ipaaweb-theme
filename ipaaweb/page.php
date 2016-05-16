@@ -25,6 +25,7 @@ get_header(); ?>
 			if (is_page('Council')){include("council.php");}
 			if (is_page('Events')){include("eventspage.php");}
 			if (is_page('Links')){include("linkpage.php");}
+			if (is_page('Membership')){include("membership.php");}
 			//echo "stuff";
 			
 			//this stuff is relevant to posts so ignore this
