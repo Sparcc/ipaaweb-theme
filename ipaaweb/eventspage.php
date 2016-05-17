@@ -11,6 +11,19 @@
         <tr><td> 2016 Tasmanian State Budget Briefing</td><td>Monday, 30 May 2016</td><td>12.00pm - 2.00pm</td><td>Join Tony Ferrall, Secretary of the Department of Treasury and Finance, as he provides an inside view of the State Budget. Tony will also be joined by Jenny Gale and Michael Pervan for a panel discussion on the impact of the State and Federal budgets on key agencies.</td><td>More Information</td></tr>
       </tbody>
     </table>
+    
+    <table>
+      <thead><tr><th>Event Name</th><th>Date</th><th>Time</th><th>More Information</th></tr></thead>
+      
+      <tbody>
+        <tr><td>IPAA Connections No 5: Continual improvement - the pathway to success with Donna Adams, Deputy Secretary Business and Executive Services, Department of Police, Fire and Emergency Management</td><td>Thursday, 5 May 2016</td><td>5:00pm-6:45pm</td><td>2014 Tasmanian Business Woman of the Year, National winner of the Telstra Business Women Innovation Award, and until recently Assistant Commissioner of Police, Donna Adams, will share her experience of success through continuous improvement</td></tr>
+        <tr><td>A 'virtual' Address to the APS by Prime Minister Malcolm Turnbull</td><td>Wednesday, 20 April 2016</td><td>9:00am-10:00am</td><td>Prime Minister Turnbull will provide an Address to the APS at an IPAA ACT event in the Great Hall, Parliament House, Canberra. Sign up to live stream the event.</td></tr>
+        <tr><td>IPAA Vic/Tas Executive Forum - Transformation: Leadership and economics for a sustainable economy</td><td>Friday, 26 February 2016</td><td>9:00am-5:00pm</td><td>This is an opportunity for executives to gather and explore the needs of a 21st century public sector, with an emphasis on the transformation required to develop sustainable shared economies.</td></tr>
+        <tr><td>IPAA Connections No. 4 - 
+Mike's journey... and what he learnt along the way with Mike Pervan, Secretary, DHHS</td><td>Thursday, 25 February 2016</td><td>5:00pm-6:30pm</td><td>Mike is an enthusiastic educator and public speaker and has presented internationally on issues from health service reform to public sector ethics.</td></tr>
+      </tbody>
+    </table>
+    
     <tr>
       <h2 class="CancellationTerms">2016 Tasmanian State Budget Briefing</td>
       <h2 class="CancellationTerms">Monday, 30 May 2016</td>
