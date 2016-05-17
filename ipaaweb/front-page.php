@@ -16,17 +16,6 @@ get_header(); ?>
 GREETINGS FROM front-page.php
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-
-		<?php 
-		//if widget areas of sidebars exist, show them 
-		
-		//this widget area should be reserved for an event calendar widget
-		//if(dynamic_sidebar('sidebar-1')) :else:endif;
-		include("widget_area_1.php");
-		include("widget_area_2.php");
-		include("widget_area_3.php");
-		include("widget_area_4.php");
-		?>
 			<?php
 			while ( have_posts() ) : the_post();
 
@@ -38,6 +27,16 @@ GREETINGS FROM front-page.php
 				endif;
 
 			endwhile; // End of the loop.
+			?>
+			<?php 
+			//if widget areas of sidebars exist, show them 
+			
+			//this widget area should be reserved for an event calendar widget
+			//if(dynamic_sidebar('sidebar-1')) :else:endif;
+			include("widget_area_1.php");
+			include("widget_area_2.php");
+			include("widget_area_3.php");
+			include("widget_area_4.php");
 			?>
 			
 		<div id="front-page-container">
