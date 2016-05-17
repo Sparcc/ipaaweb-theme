@@ -1254,52 +1254,50 @@ a:hover {
 }
 
 /*events page*/
-.Events{
-	
-	height: 50%;
-	position: absolute;
-	overflow: hidden;
-	width: 80%;
-	left: 10%;
-	right: 10%;
+h1 {
+	color:navy;
+	margin-left:20px;
 }
 	
-.EventsNameposition {
-	position: centre; 
-	width: 30%;
+h2 {
+	color:navy;
+	margin-left:20px;
 }
-.Dateposition {
-	position: centre; 
-	width: 15%;
-}
-.Timeposition {
-	position: centre; 
-	width: 15%;
-}
-.Descriptionposition {
-	position: centre; 
-	width: 30%;
-}
-.Moreposition {
-	position: centre; 
-	width: 10%;
+	
+h3 {
+	color:navy;
+	margin-left:20px;
 }
 
-/*cancellation within events page*/
-
-.Cancellation {
-	height: 50%;
-	position: absolute;
-	overflow: hidden;
-	width: 80%;
-		left: 10%;
-right: 10%;
+table {
+	width: 100%;
+	border: 0.5px solid black;
+	border-collapse: collapse;
+	
 }
 
-.Cancellationposition {
-	position: centre;
-	valign: middle; 
+td {
+		height: 50px;
+		width: 150px;
+		border: 0.5px solid black;
+		border-collapse: collapse;
+		
 }
 
+th.date {
+	width: 50px;
+}
+
+th.time {
+	width: 50px;
+}
+	
+th {
+	background-color: #3333cc
+	height: 50px;
+	color: black;
+	border: 0.5px solid black;
+	border-collapse: collapse;
+}
 
  
