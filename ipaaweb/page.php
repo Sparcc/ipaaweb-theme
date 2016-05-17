@@ -16,6 +16,22 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 			<?php
+			//this stuff is relevant to posts so ignore this
+			while ( have_posts() ) : the_post();
+
+				//get_template_part( 'template-parts/content', 'page' );
+
+				// If comments are open or we have at least one comment, load up the comment template.
+				if ( comments_open() || get_comments_number() ) :
+					comments_template();
+				endif;
+
+			endwhile; // End of the loop.
+			?>
+
+		</main><!-- #main -->
+		<?php
+		
 			//echo "stuff";
 			//this includes the html/php code from the php files for the different pages
 			//page titles are defined in wp-admin then go to pages)
@@ -27,21 +43,7 @@ get_header(); ?>
 			if (is_page('Links')){include("linkpage.php");}
 			//if (is_page('Membership')){include("membership.php");}
 			//echo "stuff";
-			
-			//this stuff is relevant to posts so ignore this
-			while ( have_posts() ) : the_post();
-
-				get_template_part( 'template-parts/content', 'page' );
-
-				// If comments are open or we have at least one comment, load up the comment template.
-				if ( comments_open() || get_comments_number() ) :
-					comments_template();
-				endif;
-
-			endwhile; // End of the loop.
-			?>
-
-		</main><!-- #main -->
+		?>
 	</div><!-- #primary -->
 
 <?php
