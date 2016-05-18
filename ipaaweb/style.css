@@ -23,7 +23,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 /*--------------------------------------------------------------
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
-# Experiments
+# Custom Code
 # Normalize
 # Typography
 # Elements
@@ -46,9 +46,311 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 --------------------------------------------------------------*/
 
 /*--------------------------------------------------------------
-# Experiments
+# Custom Code
 --------------------------------------------------------------*/
+/*INCLUDING EXTERNAL STYLE SHEETS*/
+/*THEY ARE COPYPASTED
 
+/*links page*/
+#OtherDivision{
+	width:285px;
+	height:55px;
+}
+
+a:link 
+{
+	color: #000;
+}
+a:visited {
+	color: #39F;
+}
+a:hover {
+	color: #F00;
+}
+
+.linkbody {
+	height: 100%;
+	position: absolute;
+	overflow: auto;
+	width: 80%;
+	left: 10%;
+	right: 10%;
+}
+
+.linkimagepostion {
+	left: 20%;
+	right: 10%;
+	position: relative;
+	width: 356px;
+	height: 100px;
+}
+.OtherDisvisionsLeft {
+	font-size: 30px;
+	color: #000;
+	position: relative;
+
+	left: 3%;
+	left: 7%;
+}
+
+
+.linkdiv {
+	height: 100%;
+	position: fixed;
+	overflow: hidden;
+}
+.OtherDisvisionsRight {
+	font-size: 30px;
+	color: #000;
+	position: relative;
+	left: 20%;
+}
+
+
+.linkpageWords {
+	font-size: 36px;
+	text-decoration: underline;
+	color: #000;
+	text-align: left;
+	position: relative;
+	left: 5%;
+	top: auto;
+}
+
+/*about us page*/
+.AboutUsBody {
+	height: 100%;
+	position: absolute;
+	overflow: hidden;
+	width: 80%;
+	left: 10%;
+	right: 10%;
+}
+.aboutusbigtitle {
+	font-size: 36px;
+	color: #000;
+}
+.aboutuscontent {
+	font-size: 24px;
+	color: #000;
+}
+.ContentPosition {
+	left: 2%;
+	font-size: 24px;
+	position: relative;
+	line-height: 36px;
+}
+
+/*awards page.css*/
+.Awards {
+	height: 100%;
+	position: absolute;
+	overflow: hidden;
+	width: 80%;
+	left: 10%;
+	right: 10%;
+}
+.awardsidebar {
+	position: relative;
+	width: 100%;
+	top: 0%;
+}
+.Contactpostion {
+	position: fixed;
+	top: 17%;
+}
+.Councilpostion {
+	position: fixed;
+	top: 25%;
+}
+.Awardspostion {
+	position: fixed;
+	top: 33%;
+}
+
+.Photogallerypostion {
+	position: fixed;
+	top: 41%;
+}
+
+/*contact us*/
+.contactusbody {
+	height: 100%;
+	position: absolute;
+	overflow: auto;
+	width: 80%;
+	left: 10%;
+	right: 10%;
+}
+
+/*council page*/
+
+.councilbody {
+	height: 100%;
+	position: absolute;
+	overflow: auto;
+	width: 80%;
+	left: 10%;
+	right: 10%;
+}
+.Counciljobposition {
+	position: relative;
+	top: 0%;
+}
+
+.ConcilTitle {
+	font-style: normal;
+	color: #000;
+	font-weight: bolder;
+	font-size: 36px;
+	left: 0%;
+	clip: rect(auto,auto,auto,0%);
+	position: relative;
+}
+
+/*events page*/
+.Events{
+	
+	height: 50%;
+	position: absolute;
+	overflow: hidden;
+	width: 80%;
+	left: 10%;
+	right: 10%;
+}
+	
+.EventsNameposition {
+	position: centre; 
+	width: 30%;
+}
+.Dateposition {
+	position: centre; 
+	width: 15%;
+}
+.Timeposition {
+	position: centre; 
+	width: 15%;
+}
+.Descriptionposition {
+	position: centre; 
+	width: 30%;
+}
+.Moreposition {
+	position: centre; 
+	width: 10%;
+}
+
+/*cancellation within events page*/
+
+.Cancellation {
+	height: 50%;
+	position: absolute;
+	overflow: hidden;
+	width: 80%;
+	left: 10%;
+	right: 10%;
+}
+
+.Cancellationposition {
+	position: centre;
+	valign: middle; 
+}
+
+/*membership page */ 
+ 
+.outer{ 
+width:80%; 
+border:1px solid #000; 
+float:left; 
+background:#d2da9c; 
+margin:10px 0 10px 9%; 
+} 
+.leftcol{ 
+float: left; 
+width: 33%; 
+/*background:#809900;*/ 
+border-right: 15px solid #daa520; 
+border-color: blue;
+} 
+.middlecol{ 
+float: left; 
+width: 32%; 
+/*background:#eff2df;*/ 
+border-right: 15px solid #daa520; 
+ 
+ 
+} 
+ 
+ 
+.rightcol { 
+float:right; 
+width: 32%; 
+/*background:#d2da9c;*/ 
+position:relative; 
+ 
+.datagrid { 
+   
+} 
+ 
+ 
+ 
+} 
+ 
+h1.vij-h1{ 
+border:2px black solid;  
+border-style:outset; 
+width:fit-content; 
+width:-webkit-fit-content; 
+width:-moz-fit-content; 
+color: rgb(255, 255, 255); 
+font-size: 50px; 
+background-color: rgb(3, 89, 45); 
+text-shadow: 17px 8px 6px #333333;  
+ 
+} 
+ 
+h2.vij-h2 { text-shadow: 0 1px 0 #ccc, 
+               0 2px 0 #c9c9c9, 
+               0 3px 0 #bbb, 
+               0 4px 0 #b9b9b9, 
+               0 5px 0 #aaa, 
+               0 6px 1px rgba(0,0,0,.1), 
+               0 0 5px rgba(0,0,0,.1), 
+               0 1px 3px rgba(0,0,0,.3), 
+               0 3px 5px rgba(0,0,0,.2), 
+               0 5px 10px rgba(0,0,0,.25), 
+               0 10px 10px rgba(0,0,0,.2), 
+               0 20px 20px rgba(0,0,0,.15); 
+         } 
+.datagrid {font: normal 12px/150% Arial, Helvetica, sans-serif; 
+ background: #fff; 
+ overflow: hidden; 
+ border: 1px solid #A65B1A; 
+ -webkit-border-radius: 3px;  
+ -moz-border-radius: 3px; border-radius: 3px;} 
+  
+ .datagrid table td, .datagrid table th { padding: 3px 10px; } 
+ .datagrid table thead th {background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #A65B1A), color-stop(1, #7F4614) ); 
+  background:-moz-linear-gradient( center top, #A65B1A 5%, #7F4614 100% ); 
+ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#A65B1A', endColorstr='#7F4614'); 
+ background-color:#A65B1A;  
+ color:#FFFFFF;  
+ font-size: 15px;  
+ font-weight: bold; 
+ border-left: 1px solid #BF691E; } 
+ 
+ .datagrid table thead th:first-child { border: none; } 
+  
+ .datagrid table tbody td { color: #7F4614;  
+ border-left: 1px solid #D9CFB8; 
+ font-size: 12px; 
+ font-weight: normal; } 
+  
+ .datagrid table tbody .alt td { background: #F0E5CC; color: #7F4614; } 
+  
+ .datagrid table tbody td:first-child { border-left: none; } 
+  
+ .datagrid table tbody tr:last-child td { border-bottom: none; } 
 
 /*--------------------------------------------------------------
 # Normalize
@@ -58,13 +360,18 @@ html {
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust:     100%;
 	
-	margin-left: 20%;
-	margin-right: 20%;
 	background-color: #EDEDED;
+	width: 80em;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #page.site{
-		
+	padding:1em;
+}
+
+#content.site-content{
+	
 }
 
 #primary.content-area{
@@ -282,8 +589,10 @@ th {
 }
 
 .site-footer{
+	/*
 	box-shadow: 0px 2px 0px #888888;
 	background-color: #EDEDED;
+	*/
 	width: auto;
 }
 
@@ -602,7 +911,11 @@ a:active {
 	display: block;
 	float: right;
 	/*width: 100%;*/
-	min-width: 100px;
+	border-bottom-right-radius: 5em;
+	border-top-left-radius: 5em;
+	background-color:#00BBFF;
+	padding-left: 5em;
+	padding-right: 5em;
 }
 
 .main-navigation ul {
@@ -641,8 +954,10 @@ a:active {
 	width: 10em;
 	height: 2.5em;
 	color:#000;
-	border:1px solid #fff;
-	border-width:1px 1px 0 0;
+	border-left:1px solid #fff;
+	border-right:1px solid #fff;
+	border-bottom:1px solid #fff;
+	border-width:1px 1px 0 0;*/
 	background:#00BBFF;
 	line-height:30px;
 	font-size:auto; 
@@ -663,6 +978,7 @@ a:active {
 	font-weight: bold;  
 	width: 10em;
 	height: 2.5em;
+	border-top:1px solid #fff;
 }  
 /* make the sub menu ul visible and position it beneath the main menu list item */  
 .main-navigation ul li:hover ul {  
@@ -843,7 +1159,7 @@ a:active {
 
 /*keep it general*/
 .widget-area{
-	background-color: #0099cc;
+	background-color: #00BBFF;
 	border-radius: 0.2em;
 	/*
 	border-style:solid;
@@ -879,7 +1195,7 @@ a:active {
 /* front page */
 #front-page-container{
 	clear: top;
-	background-color: #0099cc;
+	background-color: #00BBFF;
 	/*
 	border-style:solid;
 	border-width:1px 1px 1px 1px;*/
@@ -1283,102 +1599,3 @@ float:left;
 background:#d2da9c; 
 margin:10px 0 10px 9%; 
 } 
-.leftcol{ 
-float: left; 
-width: 33%; 
-/*background:#809900;*/ 
-border-right: 15px solid #daa520; 
-border-color: blue;
-} 
-.middlecol{ 
-float: left; 
-width: 32%; 
-/*background:#eff2df;*/ 
-border-right: 15px solid #daa520; 
- 
- 
-} 
- 
- 
-.rightcol { 
-float:right; 
-width: 32%; 
-/*background:#d2da9c;*/ 
-position:relative; 
- 
-.datagrid { 
-   
-} 
- 
- 
- 
-} 
-
-/*
- 
-h1.vij-h1{ 
-border:2px black solid;  
-border-style:outset; 
-width:fit-content; 
-width:-webkit-fit-content; 
-width:-moz-fit-content; 
-color: rgb(255, 255, 255); 
-font-size: 50px; 
-background-color: rgb(3, 89, 45); 
-text-shadow: 17px 8px 6px #333333;  
- 
-} 
- 
-h2.vij-h2 { text-shadow: 0 1px 0 #ccc, 
-               0 2px 0 #c9c9c9, 
-               0 3px 0 #bbb, 
-               0 4px 0 #b9b9b9, 
-               0 5px 0 #aaa, 
-               0 6px 1px rgba(0,0,0,.1), 
-               0 0 5px rgba(0,0,0,.1), 
-               0 1px 3px rgba(0,0,0,.3), 
-               0 3px 5px rgba(0,0,0,.2), 
-               0 5px 10px rgba(0,0,0,.25), 
-               0 10px 10px rgba(0,0,0,.2), 
-               0 20px 20px rgba(0,0,0,.15); 
-         } 
-          
- 
- */
- 
- 
- 
-/* 
- 
-.datagrid {font: normal 12px/150% Arial, Helvetica, sans-serif; 
- background: #fff; 
- overflow: hidden; 
- border: 1px solid #A65B1A; 
- -webkit-border-radius: 3px;  
- -moz-border-radius: 3px; border-radius: 3px;} 
-  
- .datagrid table td, .datagrid table th { padding: 3px 10px; } 
- .datagrid table thead th {background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #A65B1A), color-stop(1, #7F4614) ); 
-  background:-moz-linear-gradient( center top, #A65B1A 5%, #7F4614 100% ); 
- filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#A65B1A', endColorstr='#7F4614'); 
- background-color:#A65B1A;  
- color:#FFFFFF;  
- font-size: 15px;  
- font-weight: bold; 
- border-left: 1px solid #BF691E; } 
- 
- .datagrid table thead th:first-child { border: none; } 
-  
- .datagrid table tbody td { color: #7F4614;  
- border-left: 1px solid #D9CFB8; 
- font-size: 12px; 
- font-weight: normal; } 
-  
- .datagrid table tbody .alt td { background: #F0E5CC; color: #7F4614; } 
-  
- .datagrid table tbody td:first-child { border-left: none; } 
-  
- .datagrid table tbody tr:last-child td { border-bottom: none; } 
-  
-  
- */ 
