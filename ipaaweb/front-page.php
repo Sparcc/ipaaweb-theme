@@ -13,9 +13,10 @@
  */
 
 get_header(); ?>
-GREETINGS FROM front-page.php
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
+<?php
+	//<div id="primary" class="content-area">
+		//<main id="main" class="site-main" role="main">
+		?>
 			<?php
 			while ( have_posts() ) : the_post();
 
@@ -28,31 +29,32 @@ GREETINGS FROM front-page.php
 
 			endwhile; // End of the loop.
 			?>
-			<?php 
+			<?php
+			include("widget_area_1.php");
+			?>
+	<div id="front-page-container">
+		<h2> Appy for membership</h2>
+		<FORM class="front-page form" METHOD="LINK" ACTION="http://localhost/wordpress/stub">
+		<INPUT class="front-page button" TYPE="submit" VALUE="individual Membership">
+		</FORM>
+		</br>
+		
+		<FORM class="front-page form" METHOD="LINK" ACTION="http://localhost/wordpress/stub">
+		<INPUT class="front-page button" TYPE="submit" VALUE="Corporate Membership">
+		</FORM>
+		</div> 			
+		<?php 
 			//if widget areas of sidebars exist, show them 
 			
 			//this widget area should be reserved for an event calendar widget
 			//if(dynamic_sidebar('sidebar-1')) :else:endif;
-			include("widget_area_1.php");
 			include("widget_area_2.php");
 			include("widget_area_3.php");
 			include("widget_area_4.php");
-			?>
-			
-		<div id="front-page-container">
-			<h2> Appy for membership</h2>
-			<FORM class="front-page form" METHOD="LINK" ACTION="http://localhost/wordpress/stub">
-			<INPUT class="front-page button" TYPE="submit" VALUE="individual Membership">
-			</FORM>
-			</br>
-			
-			<FORM class="front-page form" METHOD="LINK" ACTION="http://localhost/wordpress/stub">
-			<INPUT class="front-page button" TYPE="submit" VALUE="Corporate Membership">
-			</FORM>
-		</div> 	
-
-		</main><!-- #main -->
-	</div><!-- #primary -->
-GOODBYE FROM THE front-page.php
+		?>
+		<?php
+		//</main><!-- #main -->
+	//</div><!-- #primary -->
+	?>
 <?php
 get_footer();
