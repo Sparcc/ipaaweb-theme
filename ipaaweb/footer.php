@@ -15,7 +15,7 @@
 HELLO FROM footer.php
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info">
-			<span class="sep"> SEPARATOR </span>
+			<?php //<span class="sep"> SEPARATOR </span>?>
 			<p><input type="button" value="Terms and conditions"></input>
 			<?php //printf( esc_html__( 'Theme: %1$s by %2$s.', 'ipaaweb' ), 'ipaaweb', '<a href="http://underscores.me/" rel="designer">Underscores.me</a>' ); ?>
 		</div><!-- .site-info -->
