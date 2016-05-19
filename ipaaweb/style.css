@@ -23,7 +23,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 /*--------------------------------------------------------------
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
-# Experiments
+# Custom Code
 # Normalize
 # Typography
 # Elements
@@ -43,12 +43,107 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 # Media
 	## Captions
 	## Galleries
+# More Custom Code
 --------------------------------------------------------------*/
 
 /*--------------------------------------------------------------
-# Experiments
+# Custom Code
 --------------------------------------------------------------*/
-
+/*membership page */ 
+ 
+.outer{ 
+width:100%; 
+border:1px solid #000; 
+float:left; 
+background:#d2da9c; 
+margin:1em;
+} 
+.leftcol{ 
+float: left; 
+width: 33%; 
+/*background:#809900;*/ 
+border-right: 15px solid #daa520; 
+border-color: blue;
+} 
+.middlecol{ 
+float: left; 
+width: 32%; 
+/*background:#eff2df;*/ 
+border-right: 15px solid #daa520; 
+ 
+ 
+} 
+ 
+ 
+.rightcol { 
+float:right; 
+width: 32%; 
+/*background:#d2da9c;*/ 
+position:relative; 
+ 
+.datagrid { 
+   
+} 
+ 
+ 
+ 
+} 
+ 
+h1.vij-h1{ 
+border:2px black solid;  
+border-style:outset; 
+width:fit-content; 
+width:-webkit-fit-content; 
+width:-moz-fit-content; 
+color: rgb(255, 255, 255); 
+font-size: 50px; 
+background-color: rgb(3, 89, 45); 
+text-shadow: 17px 8px 6px #333333;  
+ 
+} 
+ 
+h2.vij-h2 { text-shadow: 0 1px 0 #ccc, 
+               0 2px 0 #c9c9c9, 
+               0 3px 0 #bbb, 
+               0 4px 0 #b9b9b9, 
+               0 5px 0 #aaa, 
+               0 6px 1px rgba(0,0,0,.1), 
+               0 0 5px rgba(0,0,0,.1), 
+               0 1px 3px rgba(0,0,0,.3), 
+               0 3px 5px rgba(0,0,0,.2), 
+               0 5px 10px rgba(0,0,0,.25), 
+               0 10px 10px rgba(0,0,0,.2), 
+               0 20px 20px rgba(0,0,0,.15); 
+         } 
+.datagrid {font: normal 12px/150% Arial, Helvetica, sans-serif; 
+ background: #fff; 
+ overflow: hidden; 
+ border: 1px solid #A65B1A; 
+ -webkit-border-radius: 3px;  
+ -moz-border-radius: 3px; border-radius: 3px;} 
+  
+ .datagrid table td, .datagrid table th { padding: 3px 10px; } 
+ .datagrid table thead th {background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #A65B1A), color-stop(1, #7F4614) ); 
+  background:-moz-linear-gradient( center top, #A65B1A 5%, #7F4614 100% ); 
+ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#A65B1A', endColorstr='#7F4614'); 
+ background-color:#A65B1A;  
+ color:#FFFFFF;  
+ font-size: 15px;  
+ font-weight: bold; 
+ border-left: 1px solid #BF691E; } 
+ 
+ .datagrid table thead th:first-child { border: none; } 
+  
+ .datagrid table tbody td { color: #7F4614;  
+ border-left: 1px solid #D9CFB8; 
+ font-size: 12px; 
+ font-weight: normal; } 
+  
+ .datagrid table tbody .alt td { background: #F0E5CC; color: #7F4614; } 
+  
+ .datagrid table tbody td:first-child { border-left: none; } 
+  
+ .datagrid table tbody tr:last-child td { border-bottom: none; } 
 
 /*--------------------------------------------------------------
 # Normalize
@@ -58,9 +153,22 @@ html {
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust:     100%;
 	
-	margin-left: 15%;
-	margin-right: 15%;
+	background-color: #EDEDED;
+	width: 80em;
+	margin-left: auto;
+	margin-right: auto;
+}
 
+#page.site{
+	padding:1em;
+}
+
+#content.site-content{
+	
+}
+
+#primary.content-area{
+		
 }
 
 body {
@@ -81,6 +189,7 @@ section,
 summary {
 	display: block;
 }
+
 
 #page{
 	background-color: white;
@@ -270,6 +379,14 @@ table {
 td,
 th {
 	padding: 0;
+}
+
+.site-footer{
+	/*
+	box-shadow: 0px 2px 0px #888888;
+	background-color: #EDEDED;
+	*/
+	width: auto;
 }
 
 /*--------------------------------------------------------------
@@ -536,13 +653,13 @@ textarea {
 
 #front-page-container{
 	float: left;
-	background-color: #0066ff;
+	background-color: #00BBFF;
 	border-style:solid;
 	border-radius: 0.2em;
-	border-width: 0.15em;
+	border-width: 0px;
 	width: 15em;
 	padding: 1em;
-	box-shadow: 5px 5px 5px #888888;
+	box-shadow: 2px 2px 2px #888888;
 	display: block;
 	margin: 1em
 }
@@ -580,26 +697,18 @@ a:active {
 ## Menus
 --------------------------------------------------------------*/
 
+
 /* see end of file for current style*/
 .main-navigation {
 	clear: both;
 	display: block;
-	float: left;
-	width: 100%;
-	
-	/*
-	background-color:#4DB068;
-	border-style:solid;
-	border-width:0.15;
-	border-top-left-radius: 4em;*/
-	
-	font-family: arial, sans-serif; 
-	width: 900px;
-	margin: 0;
-	margin: 50px 0; 
-	position: absolute; 
-	top: 62px;
-	left: 645px;
+	float: right;
+	/*width: 100%;*/
+	border-bottom-right-radius: 5em;
+	border-top-left-radius: 5em;
+	background-color:#00BBFF;
+	padding-left: 5em;
+	padding-right: 5em;
 }
 
 .main-navigation ul {
@@ -607,11 +716,6 @@ a:active {
 	list-style: none;
 	margin: 0;
 	padding-left: 0;
-	
-	/*
-	padding:0;
-	margin:0;
-	list-style-type: none;*/
 	
 	padding:0;
 	margin:0;
@@ -639,14 +743,17 @@ a:active {
 	display:block;
 	text-align:center;
 	text-decoration:none;
-	width:104px;
-	height:30px;
+
+	width: 10em;
+	height: 2.5em;
 	color:#000;
-	border:1px solid #fff;
-	border-width:1px 1px 0 0;
+	border-left:1px solid #fff;
+	border-right:1px solid #fff;
+	border-bottom:1px solid #fff;
+	border-width:1px 1px 0 0;*/
 	background:#00BBFF;
 	line-height:30px;
-	font-size:11px; 
+	font-size:auto; 
 }
  
 /* make the dropdown ul invisible */
@@ -662,14 +769,17 @@ a:active {
 	color: #BFCDDB;  
 	background-color: #0099FF;  
 	font-weight: bold;  
+	width: 10em;
+	height: 2.5em;
+	border-top:1px solid #fff;
 }  
 /* make the sub menu ul visible and position it beneath the main menu list item */  
 .main-navigation ul li:hover ul {  
 	display:block;  
 	position:absolute;  
-	top:31px;  
-	left:0;  
-	width:105px;  
+
+	width: 10em;
+	height: 2.5em;
 }  
 /* style the background and foreground color of the submenu links */  
 .main-navigation ul li:hover ul li a {  
@@ -698,71 +808,6 @@ a:active {
 	left: 478px;  
 	top: 15px;  
 }
-
-/*new navbar code end*/
-
-/*
-.main-navigation li {
-	float: left;
-	position: relative;
-	padding-left: 2em;
-}
-
-.main-navigation a {
-	display: block;
-	text-decoration: none;
-}
-
-.main-navigation ul ul {
-	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
-	float: left;
-	position: absolute;
-	top: 1.5em;
-	left: -999em;
-	z-index: 99999;
-}
-
-.main-navigation ul ul ul {
-	left: -999em;
-	top: 0;
-}
-
-.main-navigation ul ul a {
-	width: 200px;
-}
-
-.main-navigation ul ul li {
-
-}
-
-.main-navigation li:hover > a,
-.main-navigation li.focus > a {
-}
-
-.main-navigation ul ul :hover > a,
-.main-navigation ul ul .focus > a {
-}
-
-.main-navigation ul ul a:hover,
-.main-navigation ul ul a.focus {
-}
-
-.main-navigation ul li:hover > ul,
-.main-navigation ul li.focus > ul {
-	left: auto;
-}
-
-.main-navigation ul ul li:hover > ul,
-.main-navigation ul ul li.focus > ul {
-	left: 100%;
-}
-
-.main-navigation .current_page_item > a,
-.main-navigation .current-menu-item > a,
-.main-navigation .current_page_ancestor > a,
-.main-navigation .current-menu-ancestor > a {
-}
-*/
 
 /* Small menu. */
 .menu-toggle,
@@ -905,24 +950,55 @@ a:active {
 .single-sell_media_item secondary 
 {display:none;}
 
+/*keep it general*/
 .widget-area{
-	background-color: white;
+	background-color: #00BBFF;
+	border-radius: 0.2em;
+	/*
 	border-style:solid;
+	border-width:1px 1px 1px 1px;*/
+	width: 20em;
+	padding: 1em;
+	box-shadow: 2px 2px 2px #888888;
+	margin: 1em;
+}
+
+#secondary1{
+	float: top;
+	background-color: white;
+	border-radius: 0;
+	clear: left;
+	box-shadow: none;
+	margin: 1em;
+	width:auto;
+	/*
+	display: inline-block;*/
+}
+#secondary4{
+	float: right;
+	width: 30em;
+	clear:top;
+}
+
+#secondary2{
+	float: left;
+	clear:top;
+}
+
+/* front page */
+#front-page-container{
+	clear: top;
+	background-color: #00BBFF;
+	/*
+	border-style:solid;
+	border-width:1px 1px 1px 1px;*/
 	border-radius: 0.2em;
 	width: 20em;
 	padding: 1em;
-	box-shadow: 10px 10px 5px #888888;
+	box-shadow: 2px 2px 2px #888888;
 	float: left;
 	margin: 1em;
 }
-#secondary1{
-	float: right;
-}
-#secondary4{
-	float: left;
-	width: 50em;
-}
-
 
 /*--------------------------------------------------------------
 # Content
@@ -1092,7 +1168,9 @@ object {
 .gallery-caption {
 	display: block;
 }
-
+/*--------------------------------------------------------------
+## More Custom Code
+--------------------------------------------------------------*/
 /*INCLUDING EXTERNAL STYLE SHEETS*/
 /*THEY ARE COPYPASTED
 
@@ -1284,10 +1362,18 @@ td {
 		
 }
 
-th.date {
-	width: 50px;
+/*cancellation within events page*/
+
+.Cancellation {
+	height: 50%;
+	position: absolute;
+	overflow: hidden;
+	width: 80%;
+	left: 10%;
+	right: 10%;
 }
 
+<<<<<<< HEAD
 th.time {
 	width: 50px;
 }
@@ -1300,4 +1386,18 @@ th {
 	border-collapse: collapse;
 }
 
+/*membership page */ 
  
+.outer{ 
+width:80%; 
+border:1px solid #000; 
+float:left; 
+background:#d2da9c; 
+margin:10px 0 10px 9%; 
+} 
+=======
+.Cancellationposition {
+	position: centre;
+	valign: middle; 
+}
+>>>>>>> toms-diabolical-plans
