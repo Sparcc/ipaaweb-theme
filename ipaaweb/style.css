@@ -1168,7 +1168,9 @@ object {
 .gallery-caption {
 	display: block;
 }
-
+/*--------------------------------------------------------------
+## More Custom Code
+--------------------------------------------------------------*/
 /*INCLUDING EXTERNAL STYLE SHEETS*/
 /*THEY ARE COPYPASTED
 
@@ -1371,6 +1373,7 @@ td {
 	right: 10%;
 }
 
+<<<<<<< HEAD
 th.time {
 	width: 50px;
 }
@@ -1392,3 +1395,9 @@ float:left;
 background:#d2da9c; 
 margin:10px 0 10px 9%; 
 } 
+=======
+.Cancellationposition {
+	position: centre;
+	valign: middle; 
+}
+>>>>>>> toms-diabolical-plans
