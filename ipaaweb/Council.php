@@ -1,4 +1,4 @@
-<div id="councilimage"><img src="Council.png" width="163" height="49" /></div>
+<div id="councilimage"><img src="http://alacritas.cis.utas.edu.au/~ipaaweb/wp-content/uploads/2016/04/Council.png" width="163" height="49" /></div>
 <hr />
 <div id="CouncilContent">
   <table width="100%" border="0" cellspacing="0" cellpadding="0">
@@ -14,10 +14,10 @@
       <td colspan="2"><hr /></td>
     </tr>
     <tr>
-      <th width="26%" rowspan="13" align="left" valign="top" scope="col"><h1 class="sidebarwords"><a href="http://www.ipaa.org.au" target="_parent" class="Contactpostion">Contact Us</a></h1>
-        <h1 class="sidebarwords"><a href="http://www.ipaa.org.au" target="_parent" class="Councilpostion">Council</a></h1>
-        <h1 class="sidebarwords"><a href="http://www.ipaa.org.au" target="_parent" class="Awardspostion">Awards</a></h1>
-      <h1 class="sidebarwords"><a href="http://www.ipaa.org.au" target="_parent" class="Photogallerypostion">Photo gallery</a></h1></th>
+      <th width="26%" rowspan="13" align="left" valign="top" scope="col"><h1 class="sidebarwords"><a href="http://alacritas.cis.utas.edu.au/~ipaaweb/index.php/about-us/contact-us/" target="_parent" class="Contactpostion">Contact Us</a></h1>
+        <h1 class="sidebarwords"><a href="http://alacritas.cis.utas.edu.au/~ipaaweb/index.php/about-us/council/" target="_parent" class="Councilpostion">Council</a></h1>
+        <h1 class="sidebarwords"><a href="http://alacritas.cis.utas.edu.au/~ipaaweb/index.php/about-us/awards/" target="_parent" class="Awardspostion">Awards</a></h1>
+      <h1 class="sidebarwords"><a href="http://alacritas.cis.utas.edu.au/~ipaaweb/index.php/about-us/photo-gallery/" target="_parent" class="Photogallerypostion">Photo gallery</a></h1></th>
       <td width="26%" valign="top"><strong>President</strong></td>
       <td width="49%">David Nicholson<br />
         Deputy Secretary<br />

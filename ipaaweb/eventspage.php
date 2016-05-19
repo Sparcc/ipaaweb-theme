@@ -1,34 +1,44 @@
-
-<div>
+<div id="eventimage"><img src="http://alacritas.cis.utas.edu.au/~ipaaweb/wp-content/uploads/2016/04/event.png" width="218" height="55" /></div>
+<hr />
+<div class="TASimagepostion" id="Tas Division"><img src="http://alacritas.cis.utas.edu.au/~ipaaweb/wp-content/uploads/2016/04/TasDivision.png" width="277" height="57" /></div>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <div id="eventFrame">
-<h1>Events</h1>
-<head>
-<link rel="stylesheet" type="text/css" href="events.css">
-</head>
   <td width="100%" border="10" cellspacing="0" cellpadding="0">
     <table>
-      <thead><tr><th>Event Name</th><th class = "date">Date</th><th class = "time">Time</th><th>More Information</th><th>Register</th></tr></thead>
+      <thead><tr><th>Event Name</th><th>Date</th><th>Time</th><th>More Information</th><th>Register</th></tr></thead>
       <tbody>
         <tr><td> 2016 Tasmanian State Budget Briefing</td><td>Monday, 30 May 2016</td><td>12.00pm - 2.00pm</td><td>Join Tony Ferrall, Secretary of the Department of Treasury and Finance, as he provides an inside view of the State Budget. Tony will also be joined by Jenny Gale and Michael Pervan for a panel discussion on the impact of the State and Federal budgets on key agencies.</td><td>More Information</td></tr>
       </tbody>
     </table>
-    
-    <h2> Past Events </h2>
-    <table>
-      <thead><tr><th>Event Name</th><th>Date</th><th>Time</th><th>More Information</th></tr></thead>
-      <tbody>
-        <tr><td>IPAA Connections No 5: Continual improvement - the pathway to success with Donna Adams, Deputy Secretary Business and Executive Services, Department of Police, Fire and Emergency Management</td><td>Thursday, 5 May 2016</td><td>5:00pm-6:45pm</td><td>2014 Tasmanian Business Woman of the Year, National winner of the Telstra Business Women Innovation Award, and until recently Assistant Commissioner of Police, Donna Adams, will share her experience of success through continuous improvement</td></tr>
-        <tr><td>A 'virtual' Address to the APS by Prime Minister Malcolm Turnbull</td><td>Wednesday, 20 April 2016</td><td>9:00am-10:00am</td><td>Prime Minister Turnbull will provide an Address to the APS at an IPAA ACT event in the Great Hall, Parliament House, Canberra. Sign up to live stream the event.</td></tr>
-        <tr><td>IPAA Vic/Tas Executive Forum - Transformation: Leadership and economics for a sustainable economy</td><td>Friday, 26 February 2016</td><td>9:00am-5:00pm</td><td>This is an opportunity for executives to gather and explore the needs of a 21st century public sector, with an emphasis on the transformation required to develop sustainable shared economies.</td></tr>
-        <tr><td>IPAA Connections No. 4 - Mike's journey... and what he learnt along the way with Mike Pervan, Secretary, DHHS</td><td>Thursday, 25 February 2016</td><td>5:00pm-6:30pm</td><td>Mike is an enthusiastic educator and public speaker and has presented internationally on issues from health service reform to public sector ethics.</td></tr>
-      </tbody>
-    </table>
+    <tr>
+      <h2 class="CancellationTerms">2016 Tasmanian State Budget Briefing</td>
+      <h2 class="CancellationTerms">Monday, 30 May 2016</td>
+      <h2 class="CancellationTerms">12.00pm - 2.00pm</td>
+      <h2 class="CancellationTerms">Join Tony Ferrall, Secretary of the Department of Treasury and Finance, as he provides an inside view of the State Budget. Tony will also be joined by Jenny Gale and Michael Pervan for a panel discussion on the impact of the State and Federal budgets on key agencies.</td>
+      <h2 class="CancellationTerms"><a href="http://events.ttc.tas.gov.au/pub/pubType/EV/pubID/zzzz570b27daf1979247/nc/zzzz572abb79a6110735/interface.html" target="_blank">Find More</a></td>
+    </tr>
+    <tr>
+      <h3 class="CancellationTerms">A 'virtual' Address to the APS by Prime Minister Malcolm Turnbull</td>
+      <h3 class="CancellationTerms">Wednesday, 20 April 2016</td>
+      <h3 class="CancellationTerms">9:00am-10:00am</td>
+      <h3 class="CancellationTerms">Prime Minister Turnbull will provide an Address to the APS at an IPAA ACT event in the Great Hall, Parliament House, Canberra. Sign up to live stream the event.</td>
+      <h3 class="CancellationTerms"><a href="http://www.act.ipaa.org.au/pm‐address" target="_blank">Find More</a></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+  </table>
 </div>
 <hr />
 <div id="callection term">
-<h3>Cancellation Terms</h3>
+  <p><img src="http://alacritas.cis.utas.edu.au/~ipaaweb/wp-content/uploads/2016/04/cancellation-terms.png" width="371" height="43" /><br />
+  </p>
+  <hr />
   <span class="CancellationTerms">All cancellations must be in writing and emailed to info@tas.ipaa.org.au 
   </span>
   <p class="CancellationTerms">No fee will be charged for cancellations received before 10 working days of the event start date, and any fees paid will be fully refunded. Please allow up to three weeks for the refund to be processed.<br />
@@ -43,7 +53,4 @@
     IPAA Tasmania reserves the right to alter any of the arrangements for an event as required.</p>
 </div>
 <p>&nbsp;</p>
-</div>
-
-
 
