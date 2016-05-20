@@ -49,7 +49,12 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 /*--------------------------------------------------------------
 # Custom Code
 --------------------------------------------------------------*/
-
+#site-logo{
+	float:left;
+	margin:1em;
+	width:10em;
+	height:4.2em;
+}
 
 #masthead.site-header{
 	background: linear-gradient(to left,rgb(102, 179, 255),white);
