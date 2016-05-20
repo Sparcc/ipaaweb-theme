@@ -61,7 +61,6 @@ margin:1em;
 float: left; 
 width: 33%; 
 border-right: 15px solid #33ccff; 
-border-color: blue;
 } 
 .middlecol{ 
 float: left; 
@@ -77,24 +76,22 @@ float:right;
 width: 32%; 
 position:relative; 
  
-.datagrid { 
-   
-} 
- 
- 
- 
-} 
+
  
 h1.vij-h1{ 
 border:2px black solid;  
 border-style:outset; 
+text-align:center;
 width:fit-content; 
 width:-webkit-fit-content; 
 width:-moz-fit-content; 
-color: rgb(255, 255, 255); 
+color: #0D4383; 
 font-size: 50px; 
-background-color: #00cc00); 
-text-shadow: 17px 8px 6px #333333;  
+font-family: Rockwell, Georgia, "Times New Roman", Times, serif;
+background-color: #00cc00; 
+padding-left:20px;
+padding-right:20px;
+text-shadow: rgba(0,0,0,0.5) -1px 0, rgba(0,0,0,0.3) 0 -1px, rgba(255,255,255,0.5) 0 1px, rgba(0,0,0,0.3) -1px -2px; 
  
 } 
  
