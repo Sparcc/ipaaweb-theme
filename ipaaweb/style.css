@@ -55,21 +55,18 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 width:100%; 
 border:1px solid #000; 
 float:left; 
-background:#d2da9c; 
 margin:1em;
 } 
 .leftcol{ 
 float: left; 
 width: 33%; 
-/*background:#809900;*/ 
-border-right: 15px solid #daa520; 
+border-right: 15px solid #33ccff; 
 border-color: blue;
 } 
 .middlecol{ 
 float: left; 
 width: 32%; 
-/*background:#eff2df;*/ 
-border-right: 15px solid #daa520; 
+border-right: 15px solid #33ccff; 
  
  
 } 
@@ -78,7 +75,6 @@ border-right: 15px solid #daa520;
 .rightcol { 
 float:right; 
 width: 32%; 
-/*background:#d2da9c;*/ 
 position:relative; 
  
 .datagrid { 
@@ -97,7 +93,7 @@ width:-webkit-fit-content;
 width:-moz-fit-content; 
 color: rgb(255, 255, 255); 
 font-size: 50px; 
-background-color: rgb(3, 89, 45); 
+background-color: #00cc00); 
 text-shadow: 17px 8px 6px #333333;  
  
 } 
