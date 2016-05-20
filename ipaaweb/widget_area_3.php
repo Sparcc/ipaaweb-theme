@@ -13,8 +13,8 @@ if ( ! is_active_sidebar( 'widget_area_3' ) ) {
 }
 ?>
 
-<aside id="secondary3" class="widget-area" role="complementary">
+<div id="secondary3" class="widget-area" role="complementary">
 THIS IS widget area 3
 	<?php dynamic_sidebar( 'widget_area_3' ); ?>
-</aside><!-- #secondary -->
+</div><!-- #secondary -->
 

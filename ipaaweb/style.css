@@ -49,28 +49,41 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 /*--------------------------------------------------------------
 # Custom Code
 --------------------------------------------------------------*/
+
+
+#masthead.site-header{
+	background: linear-gradient(to left,rgb(102, 179, 255),white);
+}
+.entry-header {
+	display: none;
+}
+
+#colonphon.site-footer{
+	
+}
+
 /*membership page */ 
  
 .outer{ 
 width:100%; 
 border:1px solid #000; 
 float:left; 
-background:#EDEDED; 
+background:#66b3ff; 
 margin:1em;
 } 
 .leftcol{ 
 float: left; 
 width: 33%; 
 /*background:#809900;*/ 
-border-right: 15px solid #EDEDED; 
+border-right: 15px solid #66b3ff; 
 border-color: blue;
 } 
 .middlecol{ 
 float: left; 
 width: 32%; 
 /*background:#eff2df;*/ 
-border-right: 15px solid #EDEDED; 
-border-color: blue;
+border-right: 15px solid #66b3ff; 
+border-color: blue;	
 } 
  
  
@@ -84,10 +97,7 @@ position:relative;
 .datagrid { 
    
 } 
- 
- 
- 
-} 
+
 
 /*--------------------------------------------------------------
 # Normalize
@@ -97,14 +107,15 @@ html {
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust:     100%;
 	
-	background-color: #EDEDED;
-	width: 80em;
-	margin-left: auto;
-	margin-right: auto;
+	width: 85em;
+	
+	background-color: #e6f2ff;
+	margin-left:auto;
+	margin-right:auto;
 }
 
 #page.site{
-	padding:1em;
+	
 }
 
 #content.site-content{
@@ -326,10 +337,7 @@ th {
 }
 
 .site-footer{
-	/*
-	box-shadow: 0px 2px 0px #888888;
-	background-color: #EDEDED;
-	*/
+	background: linear-gradient(to right,rgb(102, 179, 255),white);
 	width: auto;
 }
 
@@ -411,6 +419,10 @@ ins {
 
 big {
 	font-size: 125%;
+}
+
+.main-text{
+	font-family: Times new Roman;
 }
 
 /*--------------------------------------------------------------
@@ -883,64 +895,75 @@ a:active {
 /*--------------------------------------------------------------
 # Widgets
 --------------------------------------------------------------*/
+
+/*
 .widget {
 	margin: 0 0 1.5em;
 }
 
-/* Make sure select elements fit in widgets. */
 .widget select {
 	max-width: 100%;
 }
 .single-sell_media_item secondary 
 {display:none;}
+*/
 
 /*keep it general*/
 .widget-area{
 	background-color: #00BBFF;
 	border-radius: 0.2em;
-	/*
-	border-style:solid;
-	border-width:1px 1px 1px 1px;*/
 	width: 20em;
 	padding: 1em;
 	box-shadow: 2px 2px 2px #888888;
 	margin: 1em;
 }
 
-#secondary1{
-	float: top;
+/*
+#secondary{
+	float: right;
 	background-color: white;
 	border-radius: 0;
-	clear: left;
 	box-shadow: none;
-	margin: 1em;
-	width:auto;
-	/*
-	display: inline-block;*/
+	margin: 0px;
+	width:700px;
+}*/
+
+#widget-area-left{
+	float: left;
+	width: 70%;
 }
-#secondary4{
+
+#widget-area-right{
 	float: right;
-	width: 30em;
-	clear:top;
+	width: 40em;
+}
+
+#secondary1{;
+	background-color: white;
+	border-radius: 0;
+	box-shadow: none;
+	margin: 0px;
+}
+
+#huge_it_gallery_widget-3%{
+	width:auto;
+}
+
+#secondary4{
+	width:auto;
 }
 
 #secondary2{
-	float: left;
-	clear:top;
+
 }
 
 /* front page */
 #front-page-container{
-	clear: top;
 	background-color: #00BBFF;
-	/*
-	border-style:solid;
-	border-width:1px 1px 1px 1px;*/
 	border-radius: 0.2em;
 	width: 20em;
 	padding: 1em;
 	box-shadow: 2px 2px 2px #888888;
-	float: left;
 	margin: 1em;
 }
 
@@ -1317,7 +1340,6 @@ td {
 	right: 10%;
 }
 
-<<<<<<< HEAD
 th.time {
 	width: 50px;
 }
@@ -1339,9 +1361,7 @@ float:left;
 background:#d2da9c; 
 margin:10px 0 10px 9%; 
 } 
-=======
 .Cancellationposition {
 	position: centre;
 	valign: middle; 
 }
->>>>>>> toms-diabolical-plans

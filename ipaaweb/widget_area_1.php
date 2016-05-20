@@ -12,9 +12,9 @@ if ( ! is_active_sidebar( 'widget_area_1' ) ) {
 	return;
 }
 ?>
-<aside id="secondary1" class="widget-area" role="complementary">
+<div id="secondary1" class="widget-area" role="complementary">
 THIS IS widget area 1
 <?php //echo do_shortcode("[huge_it_gallery id='2']"); ?>
 	<?php dynamic_sidebar( 'widget_area_1' ); ?>
-</aside><!-- #secondary -->
+</div><!-- #secondary -->
 

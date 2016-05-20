@@ -17,6 +17,26 @@ get_header(); ?>
 	//<div id="primary" class="content-area">
 		//<main id="main" class="site-main" role="main">
 		?>
+		<div id="widget-container-left">
+		<?php
+			include("widget_area_1.php");
+			include("widget_area_2.php");
+			include("widget_area_3.php");
+		?>
+		
+		<div id="front-page-container">
+		<h2> Appy for membership</h2>
+		<FORM class="front-page form" METHOD="LINK" ACTION="http://localhost/wordpress/stub">
+		<INPUT class="front-page button" TYPE="submit" VALUE="individual Membership">
+		</FORM>
+		</br>
+		
+		<FORM class="front-page form" METHOD="LINK" ACTION="http://localhost/wordpress/stub">
+		<INPUT class="front-page button" TYPE="submit" VALUE="Corporate Membership">
+		</FORM>
+		</div> 
+		
+		</div>
 			<?php
 			while ( have_posts() ) : the_post();
 
@@ -28,30 +48,13 @@ get_header(); ?>
 				endif;
 
 			endwhile; // End of the loop.
-			?>
-			<?php
-			include("widget_area_1.php");
-			?>
-	<div id="front-page-container">
-		<h2> Appy for membership</h2>
-		<FORM class="front-page form" METHOD="LINK" ACTION="http://localhost/wordpress/stub">
-		<INPUT class="front-page button" TYPE="submit" VALUE="individual Membership">
-		</FORM>
-		</br>
-		
-		<FORM class="front-page form" METHOD="LINK" ACTION="http://localhost/wordpress/stub">
-		<INPUT class="front-page button" TYPE="submit" VALUE="Corporate Membership">
-		</FORM>
-		</div> 			
-		<?php 
-			//if widget areas of sidebars exist, show them 
-			
-			//this widget area should be reserved for an event calendar widget
-			//if(dynamic_sidebar('sidebar-1')) :else:endif;
-			include("widget_area_2.php");
-			include("widget_area_3.php");
+		if(dynamic_sidebar('sidebar-1')) :else:endif;
+		?>
+		<div id="widget-area-right">
+		<?php
 			include("widget_area_4.php");
 		?>
+		</div>
 		<?php
 		//</main><!-- #main -->
 	//</div><!-- #primary -->
