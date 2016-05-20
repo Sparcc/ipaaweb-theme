@@ -8,7 +8,7 @@
     <table>
       <thead><tr><th>Event Name</th><th>Date</th><th>Time</th><th>More Information</th><th>Register</th></tr></thead>
       <tbody>
-        <tr><td> 2016 Tasmanian State Budget Briefing</td><td>Monday, 30 May 2016</td><td>12.00pm - 2.00pm</td><td>Join Tony Ferrall, Secretary of the Department of Treasury and Finance, as he provides an inside view of the State Budget. Tony will also be joined by Jenny Gale and Michael Pervan for a panel discussion on the impact of the State and Federal budgets on key agencies.</td><td>More Information</td></tr>
+        <tr><td>2016 Tasmanian State Budget Briefing</td><td>Monday, 30 May 2016</td><td>12.00pm - 2.00pm</td><td>Join Tony Ferrall, Secretary of the Department of Treasury and Finance, as he provides an inside view of the State Budget. Tony will also be joined by Jenny Gale and Michael Pervan for a panel discussion on the impact of the State and Federal budgets on key agencies.</td><td>More Information</td></tr>
       </tbody>
     </table>
     <tr>
