@@ -19,8 +19,8 @@ get_header(); ?>
 		?>
 		<div id="widget-container-left">
 		<?php
-			include("widget_area_1.php");
 			include("widget_area_2.php");
+			include("widget_area_1.php");
 			include("widget_area_3.php");
 		?>
 		
@@ -34,7 +34,18 @@ get_header(); ?>
 		<FORM class="front-page form" METHOD="LINK" ACTION="http://localhost/wordpress/stub">
 		<INPUT class="front-page button" TYPE="submit" VALUE="Corporate Membership">
 		</FORM>
-		</div> 
+		</div>
+		
+		<div id="core-values" >
+				<h1>Core Organisation Values</h1>
+				<h2>Professionalism</h2>
+				<p>the IPAA is professional - by striving for excellence through taking care and pride in our professional lives.</p>
+				<h2>Integrity</h2>
+				<p>the IPAA acts with integrity - by adhering to well established public sector and community moral and ethical principles.</p>
+				<br>
+				
+				<a href="http://www.tas.ipaa.org.au/__data/assets/pdf_file/0009/126639/IPAA_Tasmania_Annual_Report_2014-15.pdf" target="_blank"> View the 2014-15 IPAA Tasmania Report</a>
+		</div>
 		
 		</div>
 			<?php

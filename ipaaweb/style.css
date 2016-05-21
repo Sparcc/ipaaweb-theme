@@ -673,6 +673,7 @@ a:active {
 	background-color:#00BBFF;
 	padding-left: 5em;
 	padding-right: 5em;
+	font-style: bold;
 }
 
 .main-navigation ul {
@@ -684,6 +685,7 @@ a:active {
 	padding:0;
 	margin:0;
 	list-style-type: none;
+	font-style: bold;
 }
 
 /*new navbar code*/
@@ -692,6 +694,7 @@ a:active {
 	padding:0;
 	margin:0;
 	list-style-type: none;
+	font-style: bold;
 }
  
 /* float the list so that the items are in a line and their position relative so that the drop down list will appear in the right place underneath each list item */
@@ -699,6 +702,7 @@ a:active {
 .main-navigation ul li {
 	float:left;
 	position:relative;
+	font-style: bold;
 }
  
 /* style the links to be 104px wide by 30px high with a top and right border 1px solid white. Set the background color and the font size. */
@@ -717,7 +721,8 @@ a:active {
 	border-width:1px 1px 0 0;*/
 	background:#00BBFF;
 	line-height:30px;
-	font-size:auto; 
+	font-size:20px; 
+	font-style: bold;
 }
  
 /* make the dropdown ul invisible */
@@ -736,6 +741,7 @@ a:active {
 	width: 10em;
 	height: 2.5em;
 	border-top:1px solid #fff;
+	font-style: bold;
 }  
 /* make the sub menu ul visible and position it beneath the main menu list item */  
 .main-navigation ul li:hover ul {  
@@ -754,12 +760,11 @@ a:active {
 /* style the background and forground colors of the links on hover */  
 .main-navigation ul li:hover ul li a:hover {  
 	background:#DDDDDD;  
-	color:#000;  
+	color:#000; 
 }  
 .main ul li {  
 	font-size: 14px;  
-    
-    
+		
 }  
 .main ul li .hide {  
 	font-family: Verdana, Geneva, sans-serif;  
@@ -810,6 +815,10 @@ a:active {
 	float: right;
 	text-align: right;
 	width: 50%;
+}
+
+.menu ul li a{
+	font-style: bold;	
 }
 
 /*--------------------------------------------------------------
@@ -904,26 +913,36 @@ a:active {
 # Widgets
 --------------------------------------------------------------*/
 
-/*
 .widget {
 	margin: 0 0 1.5em;
 }
 
 .widget select {
-	max-width: 100%;
+	/*max-width: 100%;*/
 }
 .single-sell_media_item secondary 
 {display:none;}
-*/
 
-/*keep it general*/
-.widget-area{
+/* front page */
+#front-page-container{
 	background-color: #00BBFF;
 	border-radius: 0.2em;
 	width: 20em;
 	padding: 1em;
 	box-shadow: 2px 2px 2px #888888;
 	margin: 1em;
+}
+
+.widget-area{
+	background-color: #00BBFF;
+	border-radius: 0.2em;
+	padding: 1em;
+	box-shadow: 2px 2px 2px #888888;
+	margin: 1em;
+	clear:none;
+}
+
+#widget_area_1{
 }
 
 /*
@@ -937,20 +956,25 @@ a:active {
 }*/
 
 #widget-area-left{
-	float: left;
-	width: 70%;
+	width:30%;
+	float:left;
+	background-color: red;
 }
 
 #widget-area-right{
-	float: right;
-	width: 40em;
+	width:25%;
+	position:relative;
+	bottom: 680px;
+	left: 1010px;
+	background-color: blue;
 }
 
-#secondary1{;
+#secondary1{
 	background-color: white;
 	border-radius: 0;
 	box-shadow: none;
 	margin: 0px;
+	z-index: -1;
 }
 
 #huge_it_gallery_widget-3%{
@@ -958,21 +982,43 @@ a:active {
 }
 
 #secondary4{
-	width:auto;
 }
+
+#secondary4.widget{
+	float:right;
+}
+
+#core-values{
+	margin: 1em;
+	position: relative;
+	width: 500px;
+	border-radius: 0.2em;
+	padding: 1em;
+	padding-top: 0px;
+	box-shadow: 2px 2px 2px #888888;
+	background-color: #EEEEEE;
+	top: 300px;
+}
+
+#core-values h1{
+	
+}
+/*
+#search-6{
+	position:relative;
+	width:150px;
+	left: 400px;
+}
+
+#recent-posts-8{
+	position:relative;
+	width:150px;
+	left: 400px;
+}/*
 
 #secondary2{
 
 }
-
-/* front page */
-#front-page-container{
-	background-color: #00BBFF;
-	border-radius: 0.2em;
-	width: 20em;
-	padding: 1em;
-	box-shadow: 2px 2px 2px #888888;
-	margin: 1em;
 }
 
 /*--------------------------------------------------------------
