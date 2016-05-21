@@ -73,6 +73,60 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	
 }
 
+/*events page*/
+h1 {
+	color:navy;
+	margin-left:20px;
+}
+	
+h2 {
+	color:navy;
+	margin-left:20px;
+}
+	
+h3 {
+	color:navy;
+	margin-left:20px;
+}
+
+table {
+	width: 100%;
+	border: 0.5px solid black;
+	border-collapse: collapse;
+	
+}
+
+td {
+		height: 50px;
+		width: 150px;
+		border: 0.5px solid black;
+		border-collapse: collapse;
+		
+}
+
+/*cancellation within events page*/
+
+.Cancellation {
+	height: 50%;
+	position: absolute;
+	overflow: hidden;
+	width: 80%;
+	left: 10%;
+	right: 10%;
+}
+
+th.time {
+	width: 50px;
+}
+	
+th {
+	background-color: #3333cc
+	height: 50px;
+	color: black;
+	border: 0.5px solid black;
+	border-collapse: collapse;
+}
+
 /*membership page */ 
  
 .outer{ 
@@ -1343,60 +1397,6 @@ a:hover {
 	left: 0%;
 	clip: rect(auto,auto,auto,0%);
 	position: relative;
-}
-
-/*events page*/
-h1 {
-	color:navy;
-	margin-left:20px;
-}
-	
-h2 {
-	color:navy;
-	margin-left:20px;
-}
-	
-h3 {
-	color:navy;
-	margin-left:20px;
-}
-
-table {
-	width: 100%;
-	border: 0.5px solid black;
-	border-collapse: collapse;
-	
-}
-
-td {
-		height: 50px;
-		width: 150px;
-		border: 0.5px solid black;
-		border-collapse: collapse;
-		
-}
-
-/*cancellation within events page*/
-
-.Cancellation {
-	height: 50%;
-	position: absolute;
-	overflow: hidden;
-	width: 80%;
-	left: 10%;
-	right: 10%;
-}
-
-th.time {
-	width: 50px;
-}
-	
-th {
-	background-color: #3333cc
-	height: 50px;
-	color: black;
-	border: 0.5px solid black;
-	border-collapse: collapse;
 }
 
 /*membership page */ 
