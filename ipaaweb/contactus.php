@@ -1,4 +1,4 @@
-<div id="contactusimage"><img src="http://alacritas.cis.utas.edu.au/~ipaaweb/wp-content/uploads/2016/04/contactus.png" width="217" height="39" /></div>
+<div><h1>Contact us</h1></div>
 <br />
 <hr />
 <div id="contactuscontent">
@@ -7,10 +7,6 @@
       <th colspan="5" scope="col">&nbsp;</th>
     </tr>
     <tr>
-      <td width="27%" rowspan="10" align="left" valign="top"><h1 class="sidebarwords"><a href="http://alacritas.cis.utas.edu.au/~ipaaweb/index.php/about-us/contact-us/" target="_parent" class="Contactpostion">Contact Us</a></h1>
-        <h1 class="sidebarwords"><a href="http://alacritas.cis.utas.edu.au/~ipaaweb/index.php/about-us/council/" target="_parent" class="Councilpostion">Council</a></h1>
-        <h1 class="sidebarwords"><a href="http://http://alacritas.cis.utas.edu.au/~ipaaweb/index.php/about-us/awards/" target="_parent" class="Awardspostion">Awards</a></h1>
-      <h1 class="sidebarwords"><a href="http://alacritas.cis.utas.edu.au/~ipaaweb/index.php/about-us/photo-gallery/" target="_parent" class="Photogallerypostion">Photo gallery</a></h1></td>
       <td colspan="2">Tel：03 6232 7122</td>
       <td width="24%">Name*<br /></td>
       <td width="24%">Email*<br /></td>
@@ -77,7 +73,7 @@ Level 9, 144 Macquarie Street<br /></td>
       <td>&nbsp;</td>
     </tr>
     <tr>
-      <td colspan="4"><img src="http://alacritas.cis.utas.edu.au/~ipaaweb/wp-content/uploads/2016/04/map.png" width="720" height="207" /></td>
+      <td colspan="4" align="center"><img src="http://alacritas.cis.utas.edu.au/~ipaaweb/wp-content/uploads/2016/04/map.png" width="720" height="207"/></td>
     </tr>
   </table>
 </div>
