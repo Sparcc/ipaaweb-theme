@@ -52,12 +52,18 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 #site-logo{
 	float:left;
 	margin:1em;
-	width:10em;
-	height:4.2em;
+	width:16em;
+	height:4.6em;
+}
+
+#site-slogan{
+	float:right;
+	padding-right:1em;
+	top: 2em;
 }
 
 #masthead.site-header{
-	background: linear-gradient(to left,rgb(102, 179, 255),white);
+	background: linear-gradient(to right,rgb(102, 179, 255),white);
 }
 .entry-header {
 	display: none;
@@ -766,13 +772,6 @@ a:active {
 .main ul li .hide {  
 	font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;  
 }  
-.logo{  
- 
-}
-
-.logo img{
-	
-}
 
 /* Small menu. */
 .menu-toggle,
