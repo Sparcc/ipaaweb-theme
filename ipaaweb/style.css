@@ -103,14 +103,14 @@ p{
 
 /*events page*/
 
-table {
+.events-page table {
 	width: 100%;
 	border: 0.5px solid black;
 	border-collapse: collapse;
 	
 }
 
-td {
+.events-page td {
 		height: 50px;
 		width: 150px;
 		border: 0.5px solid black;
@@ -1037,6 +1037,11 @@ a:active {
 	box-shadow: none;
 	margin: 0px;
 	z-index: -1;
+}
+
+#secondary3{
+	float:right;
+	
 }
 
 #huge_it_gallery_widget-3%{
