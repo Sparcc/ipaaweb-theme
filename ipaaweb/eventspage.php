@@ -28,10 +28,11 @@
       </tbody>
     </table>
 </div>
-<hr />
+
 <div id="callection term">
 <h3>Cancellation Terms</h3>
-  <span class="CancellationTerms">All cancellations must be in writing and emailed to info@tas.ipaa.org.au 
+<hr/>
+  <span class="CancellationTerms">All cancellations must be in writing and emailed to info@tas.ipaa.org.au
   </span>
   <p class="CancellationTerms">No fee will be charged for cancellations received before 10 working days of the event start date, and any fees paid will be fully refunded. Please allow up to three weeks for the refund to be processed.<br />
     <br />
@@ -44,6 +45,7 @@
     <br />
     IPAA Tasmania reserves the right to alter any of the arrangements for an event as required.</p>
 </div>
+<hr/>
 <p>&nbsp;</p>
 </div>
 
