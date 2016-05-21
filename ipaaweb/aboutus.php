@@ -1,6 +1,6 @@
 <div>
 <div align="justify">
-  <div><img src="http://alacritas.cis.utas.edu.au/~ipaaweb/wp-content/uploads/2016/04/AboutUs.png" width="170" height="55" /></div>
+  <div><h1>About us</h1></div>
 </div>
 </div>
 <hr />
