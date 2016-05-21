@@ -21,7 +21,6 @@ get_header(); ?>
 		<?php
 			include("widget_area_1.php");
 			include("widget_area_2.php");
-			include("widget_area_3.php");
 		?>
 		
 		<div id="front-page-container">
@@ -60,6 +59,7 @@ get_header(); ?>
 
 			endwhile; // End of the loop.
 		if(dynamic_sidebar('sidebar-1')) :else:endif;
+		include("widget_area_3.php");
 		?>
 		<div id="widget-area-right">
 		<?php
