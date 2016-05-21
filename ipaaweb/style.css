@@ -49,11 +49,39 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 /*--------------------------------------------------------------
 # Custom Code
 --------------------------------------------------------------*/
+/* Every page */
+h1 {
+	color:#595959;
+	margin-left:20px;
+}
+	
+h2 {
+	color:#595959;
+	margin-left:20px;
+}
+	
+h3 {
+	color:#595959;
+	margin-left:20px;
+}
+
+p{
+}
+
 #site-logo{
 	float:left;
 	margin:1em;
 	width:16em;
 	height:4.6em;
+	z-index:10;
+}
+
+#site-logo{
+	float:left;
+	margin:1em;
+	width:16em;
+	height:4.6em;
+	z-index:10;
 }
 
 #site-slogan{
@@ -74,20 +102,6 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 }
 
 /*events page*/
-h1 {
-	color:navy;
-	margin-left:20px;
-}
-	
-h2 {
-	color:navy;
-	margin-left:20px;
-}
-	
-h3 {
-	color:navy;
-	margin-left:20px;
-}
 
 table {
 	width: 100%;
@@ -804,6 +818,7 @@ a:active {
 
 	width: 10em;
 	height: 2.5em;
+	font-style: bold;
 }  
 /* style the background and foreground color of the submenu links */  
 .main-navigation ul li:hover ul li a {  
