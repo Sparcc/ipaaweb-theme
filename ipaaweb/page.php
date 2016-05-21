@@ -39,9 +39,9 @@ get_header(); ?>
 			if (is_page('About Us')){include("aboutus.php");}
 			if (is_page('Contact Us')){include("contactus.php");}
 			if (is_page('Council')){include("council.php");}
-			if (is_page('Events')){include("eventspage.php");}
 			if (is_page('Links')){include("linkpage.php");}
 			if (is_page('Membership')){include("membership.php");}
+			if (is_page('Events')){include("eventspage.php");}
 			//echo "stuff";
 		?>
 	</div><!-- #primary -->
