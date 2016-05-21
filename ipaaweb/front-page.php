@@ -19,8 +19,8 @@ get_header(); ?>
 		?>
 		<div id="widget-container-left">
 		<?php
-			include("widget_area_2.php");
 			include("widget_area_1.php");
+			include("widget_area_2.php");
 			include("widget_area_3.php");
 		?>
 		

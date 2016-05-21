@@ -668,12 +668,7 @@ a:active {
 	display: block;
 	float: right;
 	/*width: 100%;*/
-	border-bottom-right-radius: 5em;
-	border-top-left-radius: 5em;
 	background-color:#00BBFF;
-	padding-left: 5em;
-	padding-right: 5em;
-	font-style: bold;
 }
 
 .main-navigation ul {
@@ -685,7 +680,6 @@ a:active {
 	padding:0;
 	margin:0;
 	list-style-type: none;
-	font-style: bold;
 }
 
 /*new navbar code*/
@@ -694,7 +688,6 @@ a:active {
 	padding:0;
 	margin:0;
 	list-style-type: none;
-	font-style: bold;
 }
  
 /* float the list so that the items are in a line and their position relative so that the drop down list will appear in the right place underneath each list item */
@@ -702,7 +695,7 @@ a:active {
 .main-navigation ul li {
 	float:left;
 	position:relative;
-	font-style: bold;
+	z-index: 10;
 }
  
 /* style the links to be 104px wide by 30px high with a top and right border 1px solid white. Set the background color and the font size. */
@@ -729,6 +722,7 @@ a:active {
  
 .main-navigation ul li ul {
 	display: none;
+	
 }
  
 /* specific to non IE browsers */
@@ -773,9 +767,11 @@ a:active {
 	font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;  
 }  
 .logo{  
-	position: absolute;  
-	left: 478px;  
-	top: 15px;  
+ 
+}
+
+.logo img{
+	
 }
 
 /* Small menu. */
@@ -927,7 +923,7 @@ a:active {
 #front-page-container{
 	background-color: #00BBFF;
 	border-radius: 0.2em;
-	width: 20em;
+	width: 31em;
 	padding: 1em;
 	box-shadow: 2px 2px 2px #888888;
 	margin: 1em;
@@ -958,7 +954,6 @@ a:active {
 #widget-area-left{
 	width:30%;
 	float:left;
-	background-color: red;
 }
 
 #widget-area-right{
@@ -966,7 +961,6 @@ a:active {
 	position:relative;
 	bottom: 680px;
 	left: 1010px;
-	background-color: blue;
 }
 
 #secondary1{
