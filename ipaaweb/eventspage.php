@@ -9,7 +9,7 @@
 </head>
   <td width="100%" border="10" cellspacing="0" cellpadding="0">
     <table>
-      <thead><tr><th>Event Name</th><th class = "date">Date</th><th class = "time">Time</th><th>More Information</th><th>Register</th></tr></thead>
+      <thead><tr><th><th class = "events-page">Event Name</th><th class = "date">Date</th><th class = "time">Time</th><th><td class = "events-page">More Information</th><th><td class = "events-page">Register</th></tr></thead>
       <tbody>
         <tr><td> <td class = "events-page">2016 Tasmanian State Budget Briefing</td><td>Monday, 30 May 2016</td><td>12.00pm - 2.00pm</td><td>Join Tony Ferrall, Secretary of the Department of Treasury and Finance, as he provides an inside view of the State Budget. Tony will also be joined by Jenny Gale and Michael Pervan for a panel discussion on the impact of the State and Federal budgets on key agencies.</td><td><a href="http://events.ttc.tas.gov.au/pub/pubType/EV/pubID/zzzz570b27daf1979247/nc/zzzz572abb79a6110735/interface.html"> More Information and Registration</a></td></tr>
         <tr><td> <td class = "events-page">IPAA Connection No. 6 The F guide to an interesting career: 'Flexible, Focused and Free'</td><td>Thrusday 23 June 2016</td><td>5:00-6:45pm</td><td>'Alopi Latukefu, State Director, Department of Foreign Affairs and Trade will share some of the experiences from his varied career across the public, private, academic and community sectors.</td><td><a href="http://events.ttc.tas.gov.au/pub/pubType/EV/pubID/zzzz570b27daf1979247/nc/zzzz572abb79a6110735/interface.html"> More Information and Registration</a></td> 
