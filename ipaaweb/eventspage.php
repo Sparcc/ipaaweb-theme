@@ -1,3 +1,19 @@
+<?php
+/**
+ * The template for displaying all pages.
+ *
+ * This is the template that displays all pages by default.
+ * Please note that this is the WordPress construct of pages
+ * and that other 'pages' on your WordPress site may use a
+ * different template.
+ *
+ * @link https://codex.wordpress.org/Template_Hierarchy
+ *
+ * @package ipaaweb
+ */
+
+get_header(); ?>
+
 <div id="eventimage"><img src="http://alacritas.cis.utas.edu.au/~ipaaweb/wp-content/uploads/2016/04/event.png" width="218" height="55" /></div>
 <hr />
 <div class="TASimagepostion" id="Tas Division"><img src="http://alacritas.cis.utas.edu.au/~ipaaweb/wp-content/uploads/2016/04/TasDivision.png" width="277" height="57" /></div>
@@ -54,3 +70,5 @@
 </div>
 <p>&nbsp;</p>
 
+<?php
+get_footer(); ?>
