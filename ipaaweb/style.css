@@ -144,7 +144,7 @@ th {
 
 /*membership page */ 
  
- 
+  
 .outer{ 
 width:100%; 
 height:980px;
@@ -169,11 +169,11 @@ text-align:left;
 }
 
 
-.pic{
+td.pic{
 	float:left
 }
 
-.text{
+td.text{
 	float:right;
 }
 
