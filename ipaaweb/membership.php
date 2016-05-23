@@ -1,10 +1,31 @@
+<html>
+<body>
+
+<link rel="stylesheet" type="text/css" href="membership.css">
+
 <div class="outer">  
+ 
+ <div class="topBar">
+  <table >
+            
+            <tr>
+                    <td>
+                        <div class = "pic">
+						<img src="mem1.jpg" alt="icon" style="width:57px;height:50px;>
+						</div>
+						<div class = "text">
+                            <b>Become a member.</b>
+						</div>
+                    </td>
+                </tr>
+        </table>
+</div>
  
 <div class = "leftcol">  
  
-<h1 class = "vij-h1">Benefits of membership</h1>  
+<h1 class = "membership">Benefits of membership</h1>  
  
-<h3>There are a wide range of personal, professional and corporate benefits from membership of IPAA, including the following:<h3>  
+<h3>There are a wide range of personal, professional and corporate benefits from membership of IPAA, including the following:</h3>  
  
 <p>  
 <ol>  
@@ -23,16 +44,17 @@
 </ol>  
 </p>  
  
-<br>  
- 
+<br><br><br><br><br>
+ <br><br><br><br><br>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+ <br><br><br><br>
 </div>  
  
  
  
  
 <div class = "middlecol">  
-<h1 class = "vij-h1"> Types </h1>  
-<h2 class = "vij-h2"> Individual Membership</h2>  
+<h1 class = "membership"> Types </h1>  
+<h2> Individual Membership</h2>  
 <img class="alignnone size-medium wp-image-80" src="individual1.jpg" alt="individual1" width="225" height="225" />  
  
 <p> The fee for an individual member is $121.00 inc GST for the 2015/16 membership year.  
@@ -57,7 +79,7 @@
  
  
 <div class = "rightcol">  
-<h1 class = "vij-h1"> Corporate Membership Are : </h1>  
+<h1 class = "membership"> Corporate Membership Are : </h1>  
 <p>  
 <ul>  
 <li>Australian Bureau of Statistics </li>  
@@ -85,11 +107,11 @@
 <br> <br><br><br><br><br>  
  
 <p>  
-<table>  
-<thead><tr><th></th><th>Subscription Fee</th><th>No. of Corp Tepresentative</th></tr></thead>  
-<tbody><tr><td>Less Than 100</td><td>$363 inc GST</td><td> 3 </td></tr>  
-<tr><td>Between 100 to 500</td><td>$726 inc GST</td><td> 6 </td></tr>  
-<tr><td>Over 500 employees</td><td>$1210 inc GST</td><td> 10</td></tr>  
+<table class="datagrid">  
+<thead><tr><th></th><th>Subscription Fee</th><th>No. of Corp Representative</th></tr></thead>  
+<tbody><tr><td><b>Less Than 100</b></td><td>$363 inc GST</td><td> 3 </td></tr>  
+<tr><td><b>Between 100 to 500</b></td><td>$726 inc GST</td><td> 6 </td></tr>  
+<tr><td><b>Over 500 employees</b></td><td>$1210 inc GST</td><td> 10</td></tr>  
 </tbody>  
 </table>  
 </p>  
@@ -98,3 +120,5 @@
  
 </div>  
 </div> 
+</body>
+</html>
