@@ -1,7 +1,4 @@
-<html>
-<body>
 
-<link rel="stylesheet" type="text/css" href="membership.css">
 
 <div class="outer">  
  
@@ -11,11 +8,11 @@
             <tr>
                     <td>
                         <div class = "pic">
-						<img src="mem1.jpg" alt="icon" style="width:57px;height:50px;>
-						</div>
-						<div class = "text">
-                            <b>Become a member.</b>
-						</div>
+				<img src="http://alacritas.cis.utas.edu.au/~ipaaweb/wp-content/uploads/2016/05/mem1.jpg" alt="icon" style="width:57px;height:50px;>
+			</div>
+			<div class = "text">
+                        	 <b>Become a member.</b>
+			</div>
                     </td>
                 </tr>
         </table>
@@ -55,13 +52,13 @@
 <div class = "middlecol">  
 <h1 class = "membership"> Types </h1>  
 <h2> Individual Membership</h2>  
-<img class="alignnone size-medium wp-image-80" src="individual1.jpg" alt="individual1" width="225" height="225" />  
+<img class="alignnone size-medium wp-image-80" src="http://alacritas.cis.utas.edu.au/~ipaaweb/wp-content/uploads/2016/05/individual1.jpg" alt="individual1" width="225" height="225" />  
  
 <p> The fee for an individual member is $121.00 inc GST for the 2015/16 membership year.  
   A special rate of $57.20 inc GST is provided for full time students, retired members and current students in the PSM Program.   
   As an individual member you will receive all the benefits listed below.</p>  
 <h2 class = "vij-h2"> Corporate Membership</h2>  
-<img class="size-medium wp-image-78" src="corp-member1.jpg" alt="pic crop member" width="300" height="225" />  
+<img class="size-medium wp-image-78" src="http://alacritas.cis.utas.edu.au/~ipaaweb/wp-content/uploads/2016/05/corp-member1.jpg" alt="pic crop member" width="300" height="225" />  
  
 <p> In addition to providing access to a wide range of benefits for staff, by becoming a Corporate Member of the Institute of Public Administration (IPAA)  
  your organisation can support the advancement of public sector administration in Tasmania.</p>  
@@ -120,5 +117,3 @@
  
 </div>  
 </div> 
-</body>
-</html>
