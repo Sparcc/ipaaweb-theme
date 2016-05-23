@@ -103,14 +103,14 @@ p{
 
 /*events page*/
 
-.events-page table {
+table.events-page {
 	width: 100%;
 	border: 0.5px solid black;
 	border-collapse: collapse;
 	
 }
 
-.events-page td {
+td.events-page {
 		height: 50px;
 		width: 150px;
 		padding: 1em;
@@ -134,7 +134,7 @@ th.time {
 	width: 50px;
 }
 	
-th {
+th.events-page {
 	background-color: #00BBFF;
 	height: 50px;
 	color: white;
