@@ -10,10 +10,15 @@
           <tr>
             <th rowspan="12" scope="col"><table width="100%" border="0" cellspacing="0" cellpadding="0">
               <tr>
-                <td align="center"><a href="http://www.ipaa.org.au/" target="_blank"><img src="http://alacritas.cis.utas.edu.au/~ipaaweb/wp-content/uploads/2016/04/National-Division.png"  class="linkimagepostion" /></a></td>
+                 <td align="center"><a href="http://www.ipaa.org.au/" target="_blank"><img src="http://alacritas.cis.utas.edu.au/~ipaaweb/wp-content/uploads/2016/04/National-Division.png"  class="linkimagepostion" /></a></td>
               </tr>
               <tr>
-                <td align="center"><a href="http://www.ttc.tas.gov.au/" target="_blank"><img src="http://alacritas.cis.utas.edu.au/~ipaaweb/wp-content/uploads/2016/04/Training.png"  class="linkimagepostion" /></a></td>
+                <td><br />
+                  <br />
+                  <br /></td>
+              </tr>
+              <tr>
+               <td align="center"><a href="http://www.ttc.tas.gov.au/" target="_blank"><img src="http://alacritas.cis.utas.edu.au/~ipaaweb/wp-content/uploads/2016/04/Training.png"  class="linkimagepostion" /></a></td>
               </tr>
             </table></th>
             <th scope="col">&nbsp;</th>
@@ -22,25 +27,39 @@
             <td>&nbsp;</td>
           </tr>
           <tr>
-            <td align="left"><h2>Other IPAA Divisions</h2></td>
+            <td align="left"><h2>Other IPAA Divisions<br />
+              <br />
+            </h2></td>
           </tr>
           <tr>
-            <td align="left"><li><a href="http://www.act.ipaa.org.au/" target="_blank">IPAA Australian Capital Territory</a></li></td>
+            <td align="left"><li><a href="http://www.act.ipaa.org.au/" target="_blank">IPAA Australian Capital Territory</a><br />
+              <br />
+            </li></td>
           </tr>
           <tr>
-            <td align="left"><li><a href="http://nt.ipaa.org.au/" target="_blank">IPAA Northern Territory</a></li></td>
+            <td align="left"><li><a href="http://nt.ipaa.org.au/" target="_blank">IPAA Northern Territory</a><br />
+              <br />
+            </li></td>
           </tr>
           <tr>
-            <td align="left"><li><a href="http://www.sa.ipaa.org.au/" target="_blank">IPAA South Australia</a></li></td>
+            <td align="left"><li><a href="http://www.sa.ipaa.org.au/" target="_blank">IPAA South Australia</a><br />
+              <br />
+            </li></td>
           </tr>
           <tr>
-            <td align="left"><li><a href="http://www.vic.ipaa.org.au/" target="_blank">IPAA Victoria</a></li></td>
+            <td align="left"><li><a href="http://www.vic.ipaa.org.au/" target="_blank">IPAA Victoria</a><br />
+              <br />
+            </li></td>
           </tr>
           <tr>
-            <td align="left"><li><a href="http://www.wa.ipaa.org.au/" target="_blank">IPAA Western Australia</a></li></td>
+            <td align="left"><li><a href="http://www.wa.ipaa.org.au/" target="_blank">IPAA Western Australia</a><br />
+              <br />
+            </li></td>
           </tr>
           <tr>
-            <td align="left"><li><a href="http://www.nsw.ipaa.org.au/" target="_blank">IPAA New South Wales</a></li></td>
+            <td align="left"><li><a href="http://www.nsw.ipaa.org.au/" target="_blank">IPAA New South Wales</a><br />
+              <br />
+            </li></td>
           </tr>
           <tr>
             <td align="left"><li><a href="http://www.ipaa.org.au/qld/" target="_blank">IPAA Queensland</a></li></td>
