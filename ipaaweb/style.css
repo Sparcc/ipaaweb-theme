@@ -113,8 +113,7 @@ table.events-page {
 td.events-page {
 		height: 50px;
 		width: 150px;
-		margin-left:auto;
-		margin-right:auto;
+		padding: 1em;
 		border: 0.5px solid black;
 		border-collapse: collapse;
 		
@@ -180,40 +179,46 @@ td.text{
 
 .leftcol{ 
 float: left; 
-padding-left:15;
-padding-right:15;
-width: 29%; 
-border-right: 15px solid #33ccff; 
-
+padding-left:15px;
+padding-right:15px;
+width: 33%; 
+border-right: 5px solid #33ccff; 
+height:1300px;
 } 
 .middlecol{ 
 float: left; 
-width: 32%; 
-padding-left:15;
-padding-right:15;
-border-right: 15px solid #33ccff; 
+width: 34%; 
+padding-left:15px;
+padding-right:15px;
+border-right: 5px solid #33ccff; 
+height:1300px;
 } 
  
  
 .rightcol { 
-float:right; 
-width: 31%; 
+padding-left:15px;
+padding-right:15px;
+float:left; 
+width: 33%; 
 position:relative; 
+ 
+ 
 } 
  
  
 h1.membership{ 
 border:2px black solid;  
-border-style:outset; 
+border-style:outset;
 text-align:center;
 width:fit-content; 
-color: #0D4383; 
+color: #FFFFFF; 
 font-size: 50px; 
 font-family: Rockwell, Georgia, "Times New Roman", Times, serif;
-background-color: #00cc00; 
+background-color: #00BBFF; 
 padding-left:20px;
 padding-right:20px;
 text-shadow: rgba(0,0,0,0.5) -1px 0, rgba(0,0,0,0.3) 0 -1px, rgba(255,255,255,0.5) 0 1px, rgba(0,0,0,0.3) -1px -2px;  
+ 
 } 
  
 
@@ -225,6 +230,11 @@ text-shadow: rgba(0,0,0,0.5) -1px 0, rgba(0,0,0,0.3) 0 -1px, rgba(255,255,255,0.
 
 .datagrid td{text-align:center;}
   
+
+  
+
+
+
 /*--------------------------------------------------------------
 # Normalize
 --------------------------------------------------------------*/
