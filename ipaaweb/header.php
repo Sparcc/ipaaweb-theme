@@ -24,8 +24,9 @@
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#main"><?php esc_html_e( 'Skip to content', 'ipaaweb' ); ?></a>
 	<header id="masthead" class="site-header" role="banner">
+		<div id="site-logo"><img src="/wordpress/wp-content/themes/ipaaweb-theme/ipaaweb/pics/logo.png"/></div>
 		<div class="site-branding">
-		<div id="site-logo"><img src="wp-content/themes/ipaaweb-theme/ipaaweb/pics/logo.png"/></div>
+		
 		<div id="site-slogan"><h2>IPAA Tasmania Division | Promoting Professionalism and Integrity</h2></div>
 		</div><!-- .site-branding -->
 		
