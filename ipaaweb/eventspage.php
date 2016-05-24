@@ -5,7 +5,6 @@
 <div id="eventFrame">
 <h1>Events</h1>
 <head>
-<link rel="stylesheet" type="text/css" href="events.css">
 </head>
   <td width="100%" border="10" cellspacing="0" cellpadding="0">
     <table class = "events-page"> 
