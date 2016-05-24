@@ -42,6 +42,7 @@ get_header(); ?>
 			if (is_page('Links')){include("linkpage.php");}
 			if (is_page('Membership')){include("membership.php");}
 			if (is_page('Events')){include("eventspage.php");}
+			if (is_page('Photo Gallery')){include("photogallery.php");}
 			//echo "stuff";
 		?>
 	</div><!-- #primary -->
