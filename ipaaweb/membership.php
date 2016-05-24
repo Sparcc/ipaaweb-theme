@@ -1,7 +1,7 @@
 
 
 <div class="outer">  
- 
+ <!--
  <div class="topBar">
   <table >
             
@@ -16,7 +16,7 @@
                     </td>
                 </tr>
         </table>
-</div>
+</div>-->
  
 <div class = "leftcol">  
  
@@ -40,24 +40,23 @@
  
 </ol>  
 </p>  
- 
 <br><br><br><br><br>
- <br><br><br><br><br>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
- <br><br><br><br>
 </div>  
  
  
  
  
 <div class = "middlecol">  
-<h1 class = "membership"> Types </h1>  
-<h2> Individual Membership</h2>  
+<h1 class = "membership">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Types&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;
+</h1> 
+<h3> Individual Membership</h3>  
 <img class="alignnone size-medium wp-image-80" src="http://alacritas.cis.utas.edu.au/~ipaaweb/wp-content/uploads/2016/05/individual1.jpg" alt="individual1" width="225" height="225" />  
  
 <p> The fee for an individual member is $121.00 inc GST for the 2015/16 membership year.  
   A special rate of $57.20 inc GST is provided for full time students, retired members and current students in the PSM Program.   
   As an individual member you will receive all the benefits listed below.</p>  
-<h2 class = "vij-h2"> Corporate Membership</h2>  
+<h3 class = "vij-h2"> Corporate Membership</h3>  
 <img class="size-medium wp-image-78" src="http://alacritas.cis.utas.edu.au/~ipaaweb/wp-content/uploads/2016/05/corp-member1.jpg" alt="pic crop member" width="300" height="225" />  
  
 <p> In addition to providing access to a wide range of benefits for staff, by becoming a Corporate Member of the Institute of Public Administration (IPAA)  
@@ -76,7 +75,7 @@
  
  
 <div class = "rightcol">  
-<h1 class = "membership"> Corporate Membership Are : </h1>  
+<h1 class = "membership"> Corporate Membership</h1>  
 <p>  
 <ul>  
 <li>Australian Bureau of Statistics </li>  
@@ -101,7 +100,7 @@
 </ul>  
 </p>  
  
-<br> <br><br><br><br><br>  
+<br><br><br>
  
 <p>  
 <table class="datagrid">  
@@ -113,7 +112,7 @@
 </table>  
 </p>  
  
-<br><br><br><br><br><br><br>  
+<br><br><br>
  
 </div>  
 </div> 
