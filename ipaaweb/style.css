@@ -741,21 +741,6 @@ textarea {
 	width: 100%;
 }
 
-/*front page stuff*/
-
-#front-page-container{
-	float: left;
-	background-color: #00BBFF;
-	border-style:solid;
-	border-radius: 0.2em;
-	border-width: 0px;
-	width: 15em;
-	padding: 1em;
-	box-shadow: 2px 2px 2px #888888;
-	display: block;
-	margin: 1em
-}
-
 /*--------------------------------------------------------------
 # Navigation
 --------------------------------------------------------------*/
@@ -1032,18 +1017,18 @@ a:active {
 --------------------------------------------------------------*/
 
 .widget {
-	margin: 0 0 1.5em;
+	/*margin: 0 0 1.5em;*/
 }
 
 .widget select {
-	/*max-width: 100%;*/
+	max-width: 100%;
 }
 .single-sell_media_item secondary 
 {display:none;}
 
 /* front page */
 #front-page-container{
-	background-color: #00BBFF;
+	background-color: #68B4FF;
 	border-radius: 0.2em;
 	width: 31em;
 	padding: 1em;
@@ -1052,7 +1037,7 @@ a:active {
 }
 
 .widget-area{
-	background-color: #00BBFF;
+	background-color: #68B4FF;
 	border-radius: 0.2em;
 	padding: 1em;
 	box-shadow: 2px 2px 2px #888888;
@@ -1081,8 +1066,9 @@ a:active {
 #widget-area-right{
 	width:25%;
 	position:relative;
-	bottom: 680px;
-	left: 1010px;
+	/*
+	bottom: 848px;
+	left: 1010px;*/
 }
 
 #secondary1{
@@ -1094,20 +1080,30 @@ a:active {
 }
 
 #secondary3{
-	float:right;
-	
+	position: relative;
+	width: 29em;
+	left: 520px;
+	bottom: 665px;
 }
 
 #huge_it_gallery_widget-3%{
 	width:auto;
 }
 
+
 #secondary4{
+	position: relative;
+	width: 20em;
+	left: 1000px;
+	bottom: 1303px;
+	height: 620px;
 }
 
+
+/*
 #secondary4.widget{
-	float:right;
 }
+*/
 
 #core-values{
 	margin: 1em;
@@ -1118,7 +1114,7 @@ a:active {
 	padding-top: 0px;
 	box-shadow: 2px 2px 2px #888888;
 	background-color: #EEEEEE;
-	top: 300px;
+	top: 20px;
 }
 
 #core-values h1{
