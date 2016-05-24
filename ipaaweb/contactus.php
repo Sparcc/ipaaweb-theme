@@ -1,5 +1,4 @@
 <div><h1>Contact us</h1></div>
-<br />
 <hr />
 <div id="contactuscontent">
   <table width="100%" border="0" cellspacing="0" cellpadding="0">

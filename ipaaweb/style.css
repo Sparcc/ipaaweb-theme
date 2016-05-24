@@ -113,7 +113,8 @@ table.events-page {
 td.events-page {
 		height: 50px;
 		width: 150px;
-		padding: 1em;
+		margin-left:auto;
+		margin-right:auto;
 		border: 0.5px solid black;
 		border-collapse: collapse;
 		
@@ -191,8 +192,6 @@ width: 32%;
 padding-left:15;
 padding-right:15;
 border-right: 15px solid #33ccff; 
- 
- 
 } 
  
  
@@ -200,8 +199,6 @@ border-right: 15px solid #33ccff;
 float:right; 
 width: 31%; 
 position:relative; 
- 
- 
 } 
  
  
@@ -217,7 +214,6 @@ background-color: #00cc00;
 padding-left:20px;
 padding-right:20px;
 text-shadow: rgba(0,0,0,0.5) -1px 0, rgba(0,0,0,0.3) 0 -1px, rgba(255,255,255,0.5) 0 1px, rgba(0,0,0,0.3) -1px -2px;  
- 
 } 
  
 
@@ -229,11 +225,6 @@ text-shadow: rgba(0,0,0,0.5) -1px 0, rgba(0,0,0,0.3) 0 -1px, rgba(255,255,255,0.
 
 .datagrid td{text-align:center;}
   
-
-  
-
-
-
 /*--------------------------------------------------------------
 # Normalize
 --------------------------------------------------------------*/
