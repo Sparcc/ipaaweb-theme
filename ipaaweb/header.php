@@ -25,7 +25,7 @@
 	<a class="skip-link screen-reader-text" href="#main"><?php esc_html_e( 'Skip to content', 'ipaaweb' ); ?></a>
 	<header id="masthead" class="site-header" role="banner">
 		<div class="site-branding">
-		<div id="site-logo"><img src="http://alacritas.cis.utas.edu.au/~ipaaweb/wp-content/uploads/2016/04/Ipaalogo.jpg"/></div>
+		<div id="site-logo"><a href="<?php echo home_url();?>"><img src="http://alacritas.cis.utas.edu.au/~ipaaweb/wp-content/uploads/2016/04/Ipaalogo.jpg"/></a></div>
 		<div id="site-slogan"><h2>IPAA Tasmania Division | Promoting Professionalism and Integrity</h2></div>
 		</div><!-- .site-branding -->
 		

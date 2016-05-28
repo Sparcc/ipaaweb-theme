@@ -242,7 +242,9 @@ html {
 	font-family: sans-serif;
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust:     100%;
-	
+}
+
+body{
 	width: 85em;
 	
 	background-color: #e6f2ff;
@@ -1026,16 +1028,6 @@ a:active {
 .single-sell_media_item secondary 
 {display:none;}
 
-/* front page */
-#front-page-container{
-	background-color: #68B4FF;
-	border-radius: 0.2em;
-	width: 31em;
-	padding: 1em;
-	box-shadow: 2px 2px 2px #888888;
-	margin: 1em;
-}
-
 .widget-area{
 	background-color: #68B4FF;
 	border-radius: 0.2em;
@@ -1043,6 +1035,39 @@ a:active {
 	box-shadow: 2px 2px 2px #888888;
 	margin: 1em;
 	clear:none;
+}
+
+/* front page */
+#front-page-container{
+	/*
+	background-color: #68B4FF;
+	border-radius: 0.2em;
+	width: 31em;
+	padding: 1em;
+	box-shadow: 2px 2px 2px #888888;
+	margin: 1em;*/
+}
+div.fpage-top-bar{
+	clear:right;
+	background-color: grey;
+}
+
+div.fpage-col-1{
+	float:left;
+	width:0 auto;
+	background-color: blue;
+}
+
+div.fpage-col-2{
+	float:left;
+	width:30%;
+	background-color: green;
+}
+
+div.fpage-col-3{
+	float:left;
+	width:30%;
+	background-color: red;
 }
 
 #widget_area_1{
@@ -1059,14 +1084,17 @@ a:active {
 }*/
 
 #widget-area-left{
+	/*
 	width:30%;
 	float:left;
+	*/
 }
 
 #widget-area-right{
+	/*
 	width:25%;
 	position:relative;
-	/*
+	
 	bottom: 848px;
 	left: 1010px;*/
 }
@@ -1080,10 +1108,11 @@ a:active {
 }
 
 #secondary3{
+	/*
 	position: relative;
 	width: 29em;
 	left: 520px;
-	bottom: 665px;
+	bottom: 665px;*/
 }
 
 #huge_it_gallery_widget-3%{
@@ -1092,11 +1121,13 @@ a:active {
 
 
 #secondary4{
+	/*
 	position: relative;
 	width: 20em;
 	left: 1000px;
 	bottom: 1303px;
 	height: 620px;
+	*/
 }
 
 
@@ -1106,15 +1137,16 @@ a:active {
 */
 
 #core-values{
+	/*
 	margin: 1em;
 	position: relative;
 	width: 500px;
+	top: 20px;*/
 	border-radius: 0.2em;
 	padding: 1em;
 	padding-top: 0px;
 	box-shadow: 2px 2px 2px #888888;
 	background-color: #EEEEEE;
-	top: 20px;
 }
 
 #core-values h1{
