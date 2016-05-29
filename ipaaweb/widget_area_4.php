@@ -14,7 +14,6 @@ if ( ! is_active_sidebar( 'widget_area_4' ) ) {
 ?>
 
 <div id="secondary4" class="widget-area" role="complementary">
-THIS IS THE widget area 4
 <?php //echo do_shortcode("[huge_it_gallery id='2']"); ?>
 	<?php dynamic_sidebar( 'widget_area_4' ); ?>
 </div><!-- #secondary -->
