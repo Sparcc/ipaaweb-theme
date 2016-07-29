@@ -60,7 +60,7 @@ span.menu {
 }
 .top-nav ul {
   list-style: none;
-  padding: 0em;
+  padding: 30px;
 }
 .top-nav ul li {
   display: inline-block;
@@ -70,7 +70,7 @@ span.menu {
 .top-nav ul li a{
 	color: #fff;
 	text-decoration: none;
-	font-size: 1em;
+	font-size: 1.5em;
 	font-family: 'JockeyOne-Regular';
 }
 .top-nav ul li a:hover{
@@ -88,13 +88,13 @@ span.menu {
 }
 /*--banner start here--*/
 .banner {
-  background: url(../images/gro4.jpg)no-repeat;
+  background: url(../images/about_us.jpg)no-repeat;
   min-height: 800px;
   background-size: cover;
   position: relative;
 }
 .banner-two {
-  background: url(../images/gro4.jpg)no-repeat;
+  background: url(../images/about_us.jpg)no-repeat;
   min-height: 350px;
   background-size: cover;
 }
@@ -1951,3 +1951,10 @@ h3.typo1 {
 } 
 }	
 /*--meadia quires end here--*/
+
+.apply{
+	position:relative;
+    left:220px;
+    top:20px;
+    
+}
